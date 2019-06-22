@@ -1,0 +1,6 @@
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles/AU.dir
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles/VST3.dir

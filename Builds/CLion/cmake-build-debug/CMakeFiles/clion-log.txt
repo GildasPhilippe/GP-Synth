@@ -1,0 +1,9 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion"
+failed to find AudioUnit/AudioUnit.r
+/Applications/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU.r:28: ### /Library/Developer/CommandLineTools/usr/bin/Rez - SysError 2 during open of "AudioUnit/AudioUnit.r".
+Fatal Error!
+/Applications/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU.r:28: ### /Library/Developer/CommandLineTools/usr/bin/Rez - Fatal Error, can't recover.
+/Applications/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU.r: ### /Library/Developer/CommandLineTools/usr/bin/Rez - Since errors occurred, /Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/GP-Synth.rsrc's resource fork was not written.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug

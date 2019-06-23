@@ -18,12 +18,17 @@
 class OscillatorComponent    : public Component
 {
 public:
-    OscillatorComponent();
+    OscillatorComponent(int id);
     ~OscillatorComponent();
 
     void paint (Graphics&) override;
     void resized() override;
 
 private:
+    int oscId;
+
+    ComboBox waveformComboBox;
+
+
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (OscillatorComponent)
 };

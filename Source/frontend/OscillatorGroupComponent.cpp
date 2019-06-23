@@ -14,13 +14,20 @@
 //==============================================================================
 OscillatorGroupComponent::OscillatorGroupComponent()
 {
-    // In your constructor, you should add any child components, and
-    // initialise any special settings that your component needs.
+
+    for(int i = 0; i<3; ++i){
+        OscillatorComponent* osc = new OscillatorComponent(i);
+        addAndMakeVisible(osc);
+        oscillatorComponents.push_back(osc);
+    }
 
 }
 
 OscillatorGroupComponent::~OscillatorGroupComponent()
 {
+    for(int i = 0; i<3; ++i){
+        delete oscillatorComponents[i];
+    }
 }
 
 void OscillatorGroupComponent::paint (Graphics& g)
@@ -32,7 +39,12 @@ void OscillatorGroupComponent::paint (Graphics& g)
 
 void OscillatorGroupComponent::resized()
 {
-    // This method is where you should set the bounds of any child
-    // components that your component contains..
+    auto area = getBounds();
+    int oscillatorHeight = area.getHeight()/3;
+
+    for(int i = 0; i<3; ++i){
+        OscillatorComponent* osc = oscillatorComponents[i];
+        osc->setBounds(area.removeFromTop(oscillatorHeight));
+    }
 
 }

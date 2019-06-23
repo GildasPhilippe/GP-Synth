@@ -27,7 +27,7 @@ void MainComponent::paint (Graphics& g)
 {
 
 
-    g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
+    g.fillAll (Colours::darkblue);
 
     g.setColour (Colours::grey);
     g.drawRect (getLocalBounds(), 1);
@@ -35,9 +35,15 @@ void MainComponent::paint (Graphics& g)
 
 void MainComponent::resized()
 {
-    int leftWidth(getWidth()*0.6);
-    int rightWidth((getWidth()-leftWidth)*0.4);
     auto area = getLocalBounds();
+    int marginTop(20), marginBot(10), marginLeft(5), marginRight(20);
+    area.removeFromTop(marginTop);
+    area.removeFromBottom(marginBot);
+    area.removeFromLeft(marginLeft);
+    area.removeFromRight(marginRight);
+
+    int leftWidth(area.getWidth()*0.6);
+    int rightWidth((area.getWidth()-leftWidth)*0.4);
 
     leftComponent.setBounds(area.removeFromLeft(leftWidth));
     rightComponent.setBounds(area.removeFromRight(rightWidth));

@@ -11,6 +11,8 @@
 #pragma once
 
 #include "../../JuceLibraryCode/JuceHeader.h"
+#include "OscillatorComponent.h"
+#include <vector>
 
 //==============================================================================
 /*
@@ -25,5 +27,8 @@ public:
     void resized() override;
 
 private:
+    std::vector<OscillatorComponent*> oscillatorComponents;
+
+
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (OscillatorGroupComponent)
 };

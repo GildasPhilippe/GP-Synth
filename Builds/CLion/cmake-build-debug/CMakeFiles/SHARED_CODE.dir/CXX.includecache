@@ -2416,6 +2416,10 @@ process.h
 SynthSound.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./backend/SynthSound.h
 
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/MainComponent.h
+../../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/JuceLibraryCode/JuceHeader.h
+
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp
 PluginProcessor.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginProcessor.h
@@ -2427,6 +2431,14 @@ PluginEditor.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
 PluginProcessor.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginProcessor.h
+./frontend/MainComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/MainComponent.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp
+PluginProcessor.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginProcessor.h
+PluginEditor.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginEditor.h
 
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginProcessor.h
 ../JuceLibraryCode/JuceHeader.h

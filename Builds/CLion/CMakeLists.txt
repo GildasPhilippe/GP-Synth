@@ -74,6 +74,8 @@ add_library (SHARED_CODE STATIC
     "../../Source/backend/SynthSound.h"
     "../../Source/backend/SynthVoice.cpp"
     "../../Source/backend/SynthVoice.h"
+    "../../Source/frontend/MainComponent.cpp"
+    "../../Source/frontend/MainComponent.h"
     "../../Source/PluginProcessor.cpp"
     "../../Source/PluginProcessor.h"
     "../../Source/PluginEditor.cpp"
@@ -1494,6 +1496,7 @@ set_source_files_properties ("../../Source/backend/Maximilian/maximilian.h" PROP
 set_source_files_properties ("../../Source/backend/Maximilian/stb_vorbis.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/backend/SynthSound.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/backend/SynthVoice.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../Source/frontend/MainComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/PluginProcessor.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/PluginEditor.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../../../../../../Applications/JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h" PROPERTIES HEADER_FILE_ONLY TRUE)

@@ -62,6 +62,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/Maximilian/maximilian.cpp" "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/Maximilian/maximilian.cpp.o"
   "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthSound.cpp" "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthSound.cpp.o"
   "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp" "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.o"
+  "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp" "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

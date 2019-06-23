@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/Maximilian/stb_vorbis.c.o"
   "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthSound.cpp.o"
   "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.o"
+  "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o"
   "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o"
   "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o"
   "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.mm.o"

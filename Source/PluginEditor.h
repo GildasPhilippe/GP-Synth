@@ -12,6 +12,7 @@
 
 #include "../JuceLibraryCode/JuceHeader.h"
 #include "PluginProcessor.h"
+#include "./frontend/MainComponent.h"
 
 //==============================================================================
 /**
@@ -31,6 +32,11 @@ private:
     // access the processor object that created it.
     GpsynthAudioProcessor& processor;
     AudioProcessorValueTreeState& valueTreeState;
+
+    MidiKeyboardState keyboardState;
+    MidiKeyboardComponent keyboardComponent;
+
+    MainComponent mainComponent;
 
 
 

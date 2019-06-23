@@ -4682,6 +4682,12 @@
 		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.h">
 			<Option target="SHARED_CODE"/>
 		</Unit>
+		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp">
+			<Option target="SHARED_CODE"/>
+		</Unit>
+		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.h">
+			<Option target="SHARED_CODE"/>
+		</Unit>
 		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

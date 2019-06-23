@@ -200,9 +200,22 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp" -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.s
 
+CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp"
+
+CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp" > CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.i
+
+CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp" -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.s
+
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.i: cmake_force
@@ -215,7 +228,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginP
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.i: cmake_force
@@ -228,7 +241,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginE
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.mm.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.mm.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.mm
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.mm.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.mm.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.mm"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.mm.i: cmake_force
@@ -241,7 +254,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCod
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_devices.mm.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_devices.mm.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_devices.mm
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_devices.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_devices.mm.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_devices.mm.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_devices.mm"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_devices.mm.i: cmake_force
@@ -254,7 +267,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCod
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_formats.mm.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_formats.mm.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_formats.mm
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_formats.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_formats.mm.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_formats.mm.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_formats.mm"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_formats.mm.i: cmake_force
@@ -267,7 +280,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCod
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.i: cmake_force
@@ -280,7 +293,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCod
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm.i: cmake_force
@@ -293,7 +306,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCod
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_processors.mm.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_processors.mm.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_processors.mm
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_processors.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_processors.mm.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_processors.mm.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_processors.mm"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_processors.mm.i: cmake_force
@@ -306,7 +319,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCod
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_utils.mm.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_utils.mm.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_utils.mm
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_utils.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_utils.mm.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_utils.mm.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_utils.mm"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_utils.mm.i: cmake_force
@@ -319,7 +332,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCod
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_core.mm.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_core.mm.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_core.mm
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_core.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_core.mm.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_core.mm.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_core.mm"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_core.mm.i: cmake_force
@@ -332,7 +345,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCod
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_cryptography.mm.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_cryptography.mm.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_cryptography.mm
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_cryptography.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_cryptography.mm.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_cryptography.mm.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_cryptography.mm"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_cryptography.mm.i: cmake_force
@@ -345,7 +358,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCod
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_data_structures.mm.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_data_structures.mm.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_data_structures.mm
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_data_structures.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_data_structures.mm.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_data_structures.mm.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_data_structures.mm"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_data_structures.mm.i: cmake_force
@@ -358,7 +371,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCod
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_events.mm.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_events.mm.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_events.mm
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_events.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_events.mm.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_events.mm.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_events.mm"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_events.mm.i: cmake_force
@@ -371,7 +384,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCod
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_graphics.mm.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_graphics.mm.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_graphics.mm
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_graphics.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_graphics.mm.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_graphics.mm.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_graphics.mm"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_graphics.mm.i: cmake_force
@@ -384,7 +397,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCod
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_gui_basics.mm.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_gui_basics.mm.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_gui_basics.mm
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_gui_basics.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_gui_basics.mm.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_gui_basics.mm.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_gui_basics.mm"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_gui_basics.mm.i: cmake_force
@@ -397,7 +410,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCod
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_gui_extra.mm.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_gui_extra.mm.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_gui_extra.mm
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_gui_extra.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_gui_extra.mm.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_gui_extra.mm.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_gui_extra.mm"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_gui_extra.mm.i: cmake_force
@@ -410,7 +423,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCod
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_opengl.mm.o: CMakeFiles/SHARED_CODE.dir/flags.make
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_opengl.mm.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_opengl.mm
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_opengl.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_opengl.mm.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_opengl.mm.o -c "/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_opengl.mm"
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_opengl.mm.i: cmake_force
@@ -434,6 +447,7 @@ SHARED_CODE_OBJECTS = \
 "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/Maximilian/stb_vorbis.c.o" \
 "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthSound.cpp.o" \
 "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o" \
 "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o" \
 "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o" \
 "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.mm.o" \
@@ -466,6 +480,7 @@ libGP-Synth.a: CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth
 libGP-Synth.a: CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/Maximilian/stb_vorbis.c.o
 libGP-Synth.a: CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthSound.cpp.o
 libGP-Synth.a: CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.o
+libGP-Synth.a: CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o
 libGP-Synth.a: CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o
 libGP-Synth.a: CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o
 libGP-Synth.a: CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.mm.o
@@ -485,7 +500,7 @@ libGP-Synth.a: CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth
 libGP-Synth.a: CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_opengl.mm.o
 libGP-Synth.a: CMakeFiles/SHARED_CODE.dir/build.make
 libGP-Synth.a: CMakeFiles/SHARED_CODE.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX static library libGP-Synth.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX static library libGP-Synth.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/SHARED_CODE.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SHARED_CODE.dir/link.txt --verbose=$(VERBOSE)
 

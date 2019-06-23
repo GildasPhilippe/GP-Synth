@@ -1026,6 +1026,33 @@ Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.s:
 	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.s
 .PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.s
 
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.o
+
+# target to build an object file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.i: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.i
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.i
+
+# target to preprocess a source file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.i
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.i
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.s: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.s
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.s
+
+# target to generate assembly for a file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.s
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1134,6 +1161,9 @@ help:
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.o"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.i"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.s"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.o"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.i"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.s"
 .PHONY : help
 
 

@@ -14,7 +14,38 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abae173f-5bf6-4f1d-814f-4383f54f25f9" name="Default Changelist" comment="" />
+    <list default="true" id="abae173f-5bf6-4f1d-814f-4383f54f25f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Source/frontend/MainComponent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Source/frontend/MainComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VST3.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VST3.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GP-Synth.app/Contents/MacOS/GP-Synth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GP-Synth.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GP-Synth.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GP-Synth.vst3/Contents/MacOS/GP-Synth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libGP-Synth.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MacOSX/GP-Synth.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../MacOSX/GP-Synth.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GPSynth.jucer" beforeDir="false" afterPath="$PROJECT_DIR$/../../GPSynth.jucer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Source/PluginEditor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/PluginEditor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Source/PluginEditor.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/PluginEditor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Source/PluginProcessor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/PluginProcessor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Source/PluginProcessor.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/PluginProcessor.h" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,46 +60,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Source/PluginProcessor.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-              <folding>
-                <element signature="e#290#332#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Source/PluginProcessor.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding>
-                <element signature="e#276#304#0" expanded="true" />
-                <element signature="e#954#1118#0" />
-                <element signature="e#1120#1258#0" />
-                <element signature="e#1260#1403#0" />
-                <element signature="e#1405#1542#0" />
-                <element signature="e#1544#1622#0" />
-                <element signature="e#1624#1863#0" />
-                <element signature="e#1865#1929#0" />
-                <element signature="e#1931#1992#0" />
-                <element signature="e#1994#2075#0" />
-                <element signature="e#2077#2161#0" />
-                <element signature="e#2429#2583#0" />
-                <element signature="e#2635#3332#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../Source/PluginEditor.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="456">
+              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
               <folding>
                 <element signature="e#287#329#0" expanded="true" />
               </folding>
@@ -79,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../Source/PluginEditor.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+            <state relative-caret-position="299">
+              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
               <folding>
                 <element signature="e#273#301#0" expanded="true" />
               </folding>
@@ -89,6 +84,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -102,9 +100,10 @@
         <option value="$PROJECT_DIR$/../../Source/backend/SynthSound.cpp" />
         <option value="$PROJECT_DIR$/../../Source/backend/SynthVoice.h" />
         <option value="$PROJECT_DIR$/../../Source/backend/SynthSound.h" />
-        <option value="$PROJECT_DIR$/../../Source/PluginEditor.h" />
-        <option value="$PROJECT_DIR$/../../Source/PluginProcessor.cpp" />
         <option value="$PROJECT_DIR$/../../Source/PluginProcessor.h" />
+        <option value="$PROJECT_DIR$/../../Source/PluginProcessor.cpp" />
+        <option value="$PROJECT_DIR$/../../Source/frontend/MainComponent.cpp" />
+        <option value="$PROJECT_DIR$/../../Source/PluginEditor.h" />
         <option value="$PROJECT_DIR$/../../Source/PluginEditor.cpp" />
       </list>
     </option>
@@ -113,12 +112,12 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,15 +134,17 @@
               <item name="GP-Synth" type="b2602c69:ProjectViewProjectNode" />
               <item name="GPSynth" type="462c0819:PsiDirectoryNode" />
               <item name="Source" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -165,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.VST3">
+  <component name="RunManager" selected="CMake Application.STANDALONE_PLUGIN">
     <configuration name="AU" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GP-Synth" TARGET_NAME="AU" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -207,17 +208,18 @@
       <workItem from="1561224905381" duration="136000" />
       <workItem from="1561225128530" duration="73000" />
       <workItem from="1561225285112" duration="3373000" />
+      <workItem from="1561276824460" duration="4103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4131000" />
+    <option name="totallyTimeSpent" value="8234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -250,20 +252,7 @@
     <entry file="file://$PROJECT_DIR$/../../Source/SynthVoice.cpp" />
     <entry file="file://$PROJECT_DIR$/../../Source/SynthSound.h" />
     <entry file="file://$PROJECT_DIR$/../../Source/SynthSound.cpp" />
-    <entry file="file://$PROJECT_DIR$/../../Source/frontend/PluginEditor.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Source/backend/SynthVoice.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/frontend/PluginEditor.cpp" />
     <entry file="file://$PROJECT_DIR$/../../Source/backend/SynthSound.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -285,42 +274,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/backend/SynthVoice.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../Source/PluginProcessor.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="132">
+          <caret line="116" column="55" selection-start-line="116" selection-start-column="55" selection-end-line="116" selection-end-column="55" />
           <folding>
             <element signature="e#276#304#0" expanded="true" />
-            <element signature="e#954#1118#0" />
-            <element signature="e#1120#1258#0" />
-            <element signature="e#1260#1403#0" />
-            <element signature="e#1405#1542#0" />
-            <element signature="e#1544#1622#0" />
-            <element signature="e#1624#1863#0" />
-            <element signature="e#1865#1929#0" />
-            <element signature="e#1931#1992#0" />
-            <element signature="e#1994#2075#0" />
-            <element signature="e#2077#2161#0" />
-            <element signature="e#2429#2583#0" />
-            <element signature="e#2635#3332#0" />
+            <element signature="e#1770#1934#0" />
+            <element signature="e#1936#2074#0" />
+            <element signature="e#2076#2219#0" />
+            <element signature="e#2221#2358#0" />
+            <element signature="e#2307#2319#0" expanded="true" />
+            <element signature="e#2360#2438#0" />
+            <element signature="e#2440#2679#0" />
+            <element signature="e#2681#2745#0" />
+            <element signature="e#2747#2808#0" />
+            <element signature="e#2810#2891#0" />
+            <element signature="e#4321#4800#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Source/PluginProcessor.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        <state relative-caret-position="172">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="e#290#332#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/frontend/MainComponent.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/frontend/MainComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="e#249#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../Source/PluginEditor.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="456">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
           <folding>
             <element signature="e#287#329#0" expanded="true" />
           </folding>
@@ -329,8 +337,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Source/PluginEditor.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+        <state relative-caret-position="299">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
           <folding>
             <element signature="e#273#301#0" expanded="true" />
           </folding>

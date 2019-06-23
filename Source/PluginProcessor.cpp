@@ -24,7 +24,7 @@ GpsynthAudioProcessor::GpsynthAudioProcessor()
                        ),
        parameters (*this, nullptr, Identifier ("APVTSTutorial"),
                    {
-                           std::make_unique<AudioParameterFloat> ("gain",    // parameter ID
+                        std::make_unique<AudioParameterFloat> ("gain",    // parameter ID
                                                                   "Gain",    // parameter name
                                                                   0.0f,      // minimum value
                                                                   1.0f,      // maximum value

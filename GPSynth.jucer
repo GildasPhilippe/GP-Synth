@@ -33,7 +33,11 @@
         <FILE id="rPals2" name="SynthVoice.cpp" compile="1" resource="0" file="Source/backend/SynthVoice.cpp"/>
         <FILE id="welTGU" name="SynthVoice.h" compile="0" resource="0" file="Source/backend/SynthVoice.h"/>
       </GROUP>
-      <GROUP id="{373D20CB-3AC8-13A5-D584-6FAD16C9460B}" name="frontend"/>
+      <GROUP id="{373D20CB-3AC8-13A5-D584-6FAD16C9460B}" name="frontend">
+        <FILE id="niKZSz" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/frontend/MainComponent.cpp"/>
+        <FILE id="J3BsvA" name="MainComponent.h" compile="0" resource="0" file="Source/frontend/MainComponent.h"/>
+      </GROUP>
       <FILE id="Y2P7sj" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="NOhJ8V" name="PluginProcessor.h" compile="0" resource="0"

@@ -20,9 +20,8 @@ GpsynthAudioProcessorEditor::GpsynthAudioProcessorEditor (GpsynthAudioProcessor&
     /*
     addAndMakeVisible (gainSlider);
     gainAttachment.reset (new SliderAttachment (valueTreeState, "gain", gainSlider));
-
-    addAndMakeVisible (keyboardComponent);
     */
+    addAndMakeVisible (keyboardComponent);
 
     addAndMakeVisible(mainComponent);
 }
@@ -42,6 +41,8 @@ void GpsynthAudioProcessorEditor::resized() {
     auto area = getLocalBounds();
     int keyboardComponentHeight(getHeight()/4);
     mainComponent.setBounds(area.removeFromTop(3*keyboardComponentHeight));
+    area.removeFromTop(15);//.removeFromRight(40).removeFromLeft(40).removeFromBottom(60);
+    keyboardComponent.setBounds(area);
 
 
 
@@ -52,8 +53,6 @@ void GpsynthAudioProcessorEditor::resized() {
     auto gainRect = r.removeFromTop (50);
     gainLabel .setBounds (gainRect.removeFromLeft (50));
     gainSlider.setBounds (gainRect);
-
-    keyboardComponent.setBounds ();
      */
 
 }

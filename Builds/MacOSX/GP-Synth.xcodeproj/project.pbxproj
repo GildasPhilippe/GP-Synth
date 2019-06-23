@@ -121,6 +121,18 @@
 			isa = PBXBuildFile;
 			fileRef = 615778E3A090309EA31CAE9D;
 		};
+		8534221404145028D3E9E1D8 = {
+			isa = PBXBuildFile;
+			fileRef = F6969689C7E14722390D9A34;
+		};
+		08CF49D3E4D96AEAFAB73D91 = {
+			isa = PBXBuildFile;
+			fileRef = FBF7D42FC99137EA1F2C8A27;
+		};
+		75F9624BCCABE13733449CC6 = {
+			isa = PBXBuildFile;
+			fileRef = 1E7B568EF88BBDB721C46B68;
+		};
 		22B2B183153EED39F6D178CA = {
 			isa = PBXBuildFile;
 			fileRef = A22A30A430256AAA026A24EC;
@@ -239,6 +251,13 @@
 			path = ../../Source/backend/Maximilian/libs/maxiMFCC.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
+		0850408814B20D18D1DB3AFC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = OscillatorComponent.h;
+			path = ../../Source/frontend/OscillatorComponent.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		0A8A99F9C02D587447D3A762 = {
 			isa = PBXFileReference;
 			lastKnownFileType = text.plist.xml;
@@ -279,6 +298,13 @@
 			lastKnownFileType = sourcecode.cpp.objcpp;
 			name = "include_juce_audio_formats.mm";
 			path = "../../JuceLibraryCode/include_juce_audio_formats.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1E7B568EF88BBDB721C46B68 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = OscillatorGroupComponent.cpp;
+			path = ../../Source/frontend/OscillatorGroupComponent.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
 		2100F4FA51AB7CB4F137E63F = {
@@ -561,6 +587,13 @@
 			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
+		8EB9B22D056CA053BFE5590E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = FilterGroupComponent.h;
+			path = ../../Source/frontend/FilterGroupComponent.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		8F9C854A91EA2D3436C85193 = {
 			isa = PBXFileReference;
 			lastKnownFileType = file;
@@ -601,6 +634,13 @@
 			lastKnownFileType = sourcecode.c.h;
 			name = maxiMFCC.h;
 			path = ../../Source/backend/Maximilian/libs/maxiMFCC.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		9BE6BE72D5807B166ABC6621 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = OscillatorGroupComponent.h;
+			path = ../../Source/frontend/OscillatorGroupComponent.h;
 			sourceTree = "SOURCE_ROOT";
 		};
 		9C3FCA91BB6739E9ECF1955B = {
@@ -869,6 +909,20 @@
 			path = ../../Source/frontend/MiddleComponent.h;
 			sourceTree = "SOURCE_ROOT";
 		};
+		F6969689C7E14722390D9A34 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = OscillatorComponent.cpp;
+			path = ../../Source/frontend/OscillatorComponent.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		FBF7D42FC99137EA1F2C8A27 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = FilterGroupComponent.cpp;
+			path = ../../Source/frontend/FilterGroupComponent.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
 		FCE1448F279383CA0109F658 = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
@@ -925,6 +979,12 @@
 		D1072D68EB6C041EE9488B67 = {
 			isa = PBXGroup;
 			children = (
+				F6969689C7E14722390D9A34,
+				0850408814B20D18D1DB3AFC,
+				FBF7D42FC99137EA1F2C8A27,
+				8EB9B22D056CA053BFE5590E,
+				1E7B568EF88BBDB721C46B68,
+				9BE6BE72D5807B166ABC6621,
 				A22A30A430256AAA026A24EC,
 				82C467329EDA1AC02195EE44,
 				6DAB5727E0CC808588B30866,
@@ -1818,6 +1878,9 @@
 				A042EAD9C7870EA155F849F8,
 				97ED00803F43FB745D22CC03,
 				C9F23AFA120FEF4233C0B377,
+				8534221404145028D3E9E1D8,
+				08CF49D3E4D96AEAFAB73D91,
+				75F9624BCCABE13733449CC6,
 				22B2B183153EED39F6D178CA,
 				297C2B8746D22CF139EAA7D8,
 				EE3309B69FAA0A1B43915ACE,

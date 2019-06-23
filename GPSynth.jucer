@@ -34,6 +34,18 @@
         <FILE id="welTGU" name="SynthVoice.h" compile="0" resource="0" file="Source/backend/SynthVoice.h"/>
       </GROUP>
       <GROUP id="{373D20CB-3AC8-13A5-D584-6FAD16C9460B}" name="frontend">
+        <FILE id="ygp1b1" name="OscillatorComponent.cpp" compile="1" resource="0"
+              file="Source/frontend/OscillatorComponent.cpp"/>
+        <FILE id="R0Sss1" name="OscillatorComponent.h" compile="0" resource="0"
+              file="Source/frontend/OscillatorComponent.h"/>
+        <FILE id="vdCoUL" name="FilterGroupComponent.cpp" compile="1" resource="0"
+              file="Source/frontend/FilterGroupComponent.cpp"/>
+        <FILE id="u9wMtr" name="FilterGroupComponent.h" compile="0" resource="0"
+              file="Source/frontend/FilterGroupComponent.h"/>
+        <FILE id="MANpNG" name="OscillatorGroupComponent.cpp" compile="1" resource="0"
+              file="Source/frontend/OscillatorGroupComponent.cpp"/>
+        <FILE id="vQF0mN" name="OscillatorGroupComponent.h" compile="0" resource="0"
+              file="Source/frontend/OscillatorGroupComponent.h"/>
         <FILE id="nGEkbi" name="LeftComponent.cpp" compile="1" resource="0"
               file="Source/frontend/LeftComponent.cpp"/>
         <FILE id="ZYfYvQ" name="LeftComponent.h" compile="0" resource="0" file="Source/frontend/LeftComponent.h"/>

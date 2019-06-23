@@ -11,6 +11,8 @@
 #pragma once
 
 #include "../../JuceLibraryCode/JuceHeader.h"
+#include "OscillatorGroupComponent.h"
+#include "FilterGroupComponent.h"
 
 //==============================================================================
 /*
@@ -25,5 +27,9 @@ public:
     void resized() override;
 
 private:
+    OscillatorGroupComponent oscillatorGroupComponent;
+    FilterGroupComponent filterGroupComponent;
+
+
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (LeftComponent)
 };

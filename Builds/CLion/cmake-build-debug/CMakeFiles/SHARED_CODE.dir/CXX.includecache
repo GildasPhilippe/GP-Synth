@@ -2374,31 +2374,25 @@ juce_gui_extra/juce_gui_extra.h
 juce_opengl/juce_opengl.h
 -
 
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/FilterGroupComponent.h
 ../../JuceLibraryCode/JuceHeader.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
 
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp
-../../JuceLibraryCode/JuceHeader.h
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
-MainComponent.h
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.h
-
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp
 ../../JuceLibraryCode/JuceHeader.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
 LeftComponent.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.h
-MiddleComponent.h
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.h
-RightComponent.h
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.h
 
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.h
 ../../JuceLibraryCode/JuceHeader.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
+OscillatorGroupComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.h
+FilterGroupComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/FilterGroupComponent.h
 
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.h
 ../../JuceLibraryCode/JuceHeader.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
 

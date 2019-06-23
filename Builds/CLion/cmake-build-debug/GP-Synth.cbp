@@ -4682,6 +4682,12 @@
 		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.h">
 			<Option target="SHARED_CODE"/>
 		</Unit>
+		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/FilterGroupComponent.cpp">
+			<Option target="SHARED_CODE"/>
+		</Unit>
+		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/FilterGroupComponent.h">
+			<Option target="SHARED_CODE"/>
+		</Unit>
 		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
@@ -4698,6 +4704,18 @@
 			<Option target="SHARED_CODE"/>
 		</Unit>
 		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.h">
+			<Option target="SHARED_CODE"/>
+		</Unit>
+		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/OscillatorComponent.cpp">
+			<Option target="SHARED_CODE"/>
+		</Unit>
+		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/OscillatorComponent.h">
+			<Option target="SHARED_CODE"/>
+		</Unit>
+		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.cpp">
+			<Option target="SHARED_CODE"/>
+		</Unit>
+		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.h">
 			<Option target="SHARED_CODE"/>
 		</Unit>
 		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp">

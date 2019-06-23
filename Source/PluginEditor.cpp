@@ -16,7 +16,7 @@ GpsynthAudioProcessorEditor::GpsynthAudioProcessorEditor (GpsynthAudioProcessor&
     : AudioProcessorEditor (&p), processor (p), valueTreeState(vts),
       keyboardComponent (keyboardState, MidiKeyboardComponent::horizontalKeyboard)
 {
-    setSize (600, 400);
+    setSize (600, 370);
     /*
     addAndMakeVisible (gainSlider);
     gainAttachment.reset (new SliderAttachment (valueTreeState, "gain", gainSlider));
@@ -43,7 +43,7 @@ void GpsynthAudioProcessorEditor::resized() {
     int keyboardComponentHeight(getHeight()/4);
     mainComponent.setBounds(area.removeFromTop(3*keyboardComponentHeight));
 
-    
+
 
 
 

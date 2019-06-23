@@ -1026,6 +1026,33 @@ Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.s:
 	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.s
 .PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.s
 
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.o
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.o
+
+# target to build an object file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.o
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.o
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.i: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.i
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.i
+
+# target to preprocess a source file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.i
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.i
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.s: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.s
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.s
+
+# target to generate assembly for a file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.s
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.s
+
 Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o
 
 .PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.o
@@ -1052,6 +1079,60 @@ Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.s: Volumes/
 Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.s:
 	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.s
 .PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.s
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.o
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.o
+
+# target to build an object file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.o
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.o
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.i: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.i
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.i
+
+# target to preprocess a source file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.i
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.i
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.s: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.s
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.s
+
+# target to generate assembly for a file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.s
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.s
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp.o
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.o
+
+# target to build an object file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp.o
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp.o
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.i: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp.i
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.i
+
+# target to preprocess a source file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp.i
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp.i
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.s: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp.s
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.s
+
+# target to generate assembly for a file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp.s
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp.s
 
 # Help Target
 help:
@@ -1161,9 +1242,18 @@ help:
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.o"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.i"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.s"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.o"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.i"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.s"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.o"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.i"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.s"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.o"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.i"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.s"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.o"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.i"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.s"
 .PHONY : help
 
 

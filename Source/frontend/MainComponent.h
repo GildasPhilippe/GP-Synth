@@ -11,6 +11,9 @@
 #pragma once
 
 #include "../../JuceLibraryCode/JuceHeader.h"
+#include "LeftComponent.h"
+#include "MiddleComponent.h"
+#include "RightComponent.h"
 
 //==============================================================================
 /*
@@ -25,5 +28,11 @@ public:
     void resized() override;
 
 private:
+    LeftComponent leftComponent;
+    MiddleComponent middleComponent;
+    RightComponent rightComponent;
+
+
+
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };

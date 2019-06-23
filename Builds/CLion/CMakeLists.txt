@@ -74,6 +74,12 @@ add_library (SHARED_CODE STATIC
     "../../Source/backend/SynthSound.h"
     "../../Source/backend/SynthVoice.cpp"
     "../../Source/backend/SynthVoice.h"
+    "../../Source/frontend/LeftComponent.cpp"
+    "../../Source/frontend/LeftComponent.h"
+    "../../Source/frontend/MiddleComponent.cpp"
+    "../../Source/frontend/MiddleComponent.h"
+    "../../Source/frontend/RightComponent.cpp"
+    "../../Source/frontend/RightComponent.h"
     "../../Source/frontend/MainComponent.cpp"
     "../../Source/frontend/MainComponent.h"
     "../../Source/PluginProcessor.cpp"
@@ -1496,6 +1502,9 @@ set_source_files_properties ("../../Source/backend/Maximilian/maximilian.h" PROP
 set_source_files_properties ("../../Source/backend/Maximilian/stb_vorbis.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/backend/SynthSound.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/backend/SynthVoice.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../Source/frontend/LeftComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../Source/frontend/MiddleComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../Source/frontend/RightComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/frontend/MainComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/PluginProcessor.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/PluginEditor.h" PROPERTIES HEADER_FILE_ONLY TRUE)

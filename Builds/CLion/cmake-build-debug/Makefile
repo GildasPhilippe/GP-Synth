@@ -1215,6 +1215,60 @@ Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp.s:
 	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp.s
 .PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp.s
 
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp.o
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.o
+
+# target to build an object file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp.o
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp.o
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.i: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp.i
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.i
+
+# target to preprocess a source file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp.i
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp.i
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.s: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp.s
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.s
+
+# target to generate assembly for a file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp.s
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp.s
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.cpp.o
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.o
+
+# target to build an object file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.cpp.o
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.cpp.o
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.i: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.cpp.i
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.i
+
+# target to preprocess a source file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.cpp.i
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.cpp.i
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.s: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.cpp.s
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.s
+
+# target to generate assembly for a file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.cpp.s
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1344,6 +1398,12 @@ help:
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.o"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.i"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.s"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.o"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.i"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.s"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.o"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.i"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.s"
 .PHONY : help
 
 

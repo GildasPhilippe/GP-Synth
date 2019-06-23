@@ -18,15 +18,15 @@
 #define NOISE_ID 5
 
 //==============================================================================
-OscillatorComponent::OscillatorComponent(int id) : oscId(id), waveformComboBox("waveform")
+OscillatorComponent::OscillatorComponent(int id) : oscId(id), waveformSelector("waveformSelector"+std::to_string(id))
 {
-    waveformComboBox.addItem("Sine", SINE_ID);
-    waveformComboBox.addItem("Triangle", TRIANGLE_ID);
-    waveformComboBox.addItem("Square", SQUARE_ID);
-    waveformComboBox.addItem("Saw", SAW_ID);
-    waveformComboBox.addItem("Noise", NOISE_ID);
-    waveformComboBox.setSelectedId(SINE_ID);
-    addAndMakeVisible(waveformComboBox);
+    waveformSelector.addItem("Sine", SINE_ID);
+    waveformSelector.addItem("Triangle", TRIANGLE_ID);
+    waveformSelector.addItem("Square", SQUARE_ID);
+    waveformSelector.addItem("Saw", SAW_ID);
+    waveformSelector.addItem("Noise", NOISE_ID);
+    waveformSelector.setSelectedId(SINE_ID);
+    addAndMakeVisible(waveformSelector);
 }
 
 OscillatorComponent::~OscillatorComponent()
@@ -61,7 +61,7 @@ void OscillatorComponent::resized()
     int comboPaddings((comboBoxBounds.getHeight()-comboBoxHeight)/2);
     comboBoxBounds.removeFromTop(comboPaddings);
     comboBoxBounds.removeFromBottom(comboPaddings);
-    waveformComboBox.setBounds(comboBoxBounds);
+    waveformSelector.setBounds(comboBoxBounds);
 
     area.removeFromLeft(spaceMiddle);
 

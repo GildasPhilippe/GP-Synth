@@ -121,6 +121,14 @@
 			isa = PBXBuildFile;
 			fileRef = 615778E3A090309EA31CAE9D;
 		};
+		ECFF95D0567D19F06746912D = {
+			isa = PBXBuildFile;
+			fileRef = BF355A58D84ABC31BD2DDACA;
+		};
+		DE660EDF69D071641DA62B20 = {
+			isa = PBXBuildFile;
+			fileRef = 1AD5E528B8AEBA69AC6988B2;
+		};
 		8534221404145028D3E9E1D8 = {
 			isa = PBXBuildFile;
 			fileRef = F6969689C7E14722390D9A34;
@@ -265,6 +273,13 @@
 			path = "Info-VST3.plist";
 			sourceTree = "SOURCE_ROOT";
 		};
+		109D3FAC2474B999AEC92E58 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ComboSelector.h;
+			path = ../../Source/frontend/materials/ComboSelector.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		10E2976935BFDFA322582EC2 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
@@ -291,6 +306,13 @@
 			lastKnownFileType = sourcecode.c.c;
 			name = "stb_vorbis.c";
 			path = "../../Source/backend/Maximilian/stb_vorbis.c";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1AD5E528B8AEBA69AC6988B2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = Potentiometer.cpp;
+			path = ../../Source/frontend/materials/Potentiometer.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
 		1AD7A7B925DE9DDB69F9BBF0 = {
@@ -412,13 +434,6 @@
 			path = System/Library/Frameworks/CoreMIDI.framework;
 			sourceTree = SDKROOT;
 		};
-		53EE0BFCECA58EC840E888B6 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = PluginEditor.h;
-			path = ../../Source/PluginEditor.h;
-			sourceTree = "SOURCE_ROOT";
-		};
 		5441030773CD5E2B24EBD30A = {
 			isa = PBXFileReference;
 			lastKnownFileType = file;
@@ -482,6 +497,13 @@
 			path = System/Library/Frameworks/DiscRecording.framework;
 			sourceTree = SDKROOT;
 		};
+		719D1C785964F87010C2B1F2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_gui_basics";
+			path = "/Applications/JUCE/modules/juce_gui_basics";
+			sourceTree = "<absolute>";
+		};
 		7492A5BEC9806113325A1C27 = {
 			isa = PBXFileReference;
 			lastKnownFileType = file.nib;
@@ -531,19 +553,19 @@
 			path = "GP-Synth.entitlements";
 			sourceTree = "SOURCE_ROOT";
 		};
+		53EE0BFCECA58EC840E888B6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = PluginEditor.h;
+			path = ../../Source/PluginEditor.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		6362C8837FF05E6E5A580B2C = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
 			name = sineTable.h;
 			path = ../../Source/backend/Maximilian/libs/sineTable.h;
 			sourceTree = "SOURCE_ROOT";
-		};
-		719D1C785964F87010C2B1F2 = {
-			isa = PBXFileReference;
-			lastKnownFileType = file;
-			name = "juce_gui_basics";
-			path = "/Applications/JUCE/modules/juce_gui_basics";
-			sourceTree = "<absolute>";
 		};
 		75592759DCEBE9D5641572A3 = {
 			isa = PBXFileReference;
@@ -706,6 +728,13 @@
 			path = "../../JuceLibraryCode/include_juce_core.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
+		A937B5417EBD06FB131E2071 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = Potentiometer.h;
+			path = ../../Source/frontend/materials/Potentiometer.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		A986ADAA14B4A209690573A8 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.objcpp;
@@ -725,6 +754,13 @@
 			lastKnownFileType = sourcecode.c.h;
 			name = RightComponent.h;
 			path = ../../Source/frontend/RightComponent.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		BF355A58D84ABC31BD2DDACA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = ComboSelector.cpp;
+			path = ../../Source/frontend/materials/ComboSelector.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
 		C3E3E58318718258E9DDCF42 = {
@@ -976,9 +1012,21 @@
 			name = backend;
 			sourceTree = "<group>";
 		};
+		6E480A76A046DDA93DECD7C0 = {
+			isa = PBXGroup;
+			children = (
+				BF355A58D84ABC31BD2DDACA,
+				109D3FAC2474B999AEC92E58,
+				1AD5E528B8AEBA69AC6988B2,
+				A937B5417EBD06FB131E2071,
+			);
+			name = materials;
+			sourceTree = "<group>";
+		};
 		D1072D68EB6C041EE9488B67 = {
 			isa = PBXGroup;
 			children = (
+				6E480A76A046DDA93DECD7C0,
 				F6969689C7E14722390D9A34,
 				0850408814B20D18D1DB3AFC,
 				FBF7D42FC99137EA1F2C8A27,
@@ -1878,6 +1926,8 @@
 				A042EAD9C7870EA155F849F8,
 				97ED00803F43FB745D22CC03,
 				C9F23AFA120FEF4233C0B377,
+				ECFF95D0567D19F06746912D,
+				DE660EDF69D071641DA62B20,
 				8534221404145028D3E9E1D8,
 				08CF49D3E4D96AEAFAB73D91,
 				75F9624BCCABE13733449CC6,

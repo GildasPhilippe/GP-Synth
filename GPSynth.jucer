@@ -34,6 +34,14 @@
         <FILE id="welTGU" name="SynthVoice.h" compile="0" resource="0" file="Source/backend/SynthVoice.h"/>
       </GROUP>
       <GROUP id="{373D20CB-3AC8-13A5-D584-6FAD16C9460B}" name="frontend">
+        <GROUP id="{67B09099-AE85-1505-B610-4CDAECD201A1}" name="materials">
+          <FILE id="ljaE43" name="ComboSelector.cpp" compile="1" resource="0"
+                file="Source/frontend/materials/ComboSelector.cpp"/>
+          <FILE id="JPMUAg" name="ComboSelector.h" compile="0" resource="0" file="Source/frontend/materials/ComboSelector.h"/>
+          <FILE id="Tt55U8" name="Potentiometer.cpp" compile="1" resource="0"
+                file="Source/frontend/materials/Potentiometer.cpp"/>
+          <FILE id="cB4NhL" name="Potentiometer.h" compile="0" resource="0" file="Source/frontend/materials/Potentiometer.h"/>
+        </GROUP>
         <FILE id="ygp1b1" name="OscillatorComponent.cpp" compile="1" resource="0"
               file="Source/frontend/OscillatorComponent.cpp"/>
         <FILE id="R0Sss1" name="OscillatorComponent.h" compile="0" resource="0"

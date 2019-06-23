@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/Maximilian/stb_vorbis.c.o"
   "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthSound.cpp.o"
   "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.o"
+  "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp.o"
+  "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.cpp.o"
   "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorComponent.cpp.o"
   "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterGroupComponent.cpp.o"
   "CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.cpp.o"

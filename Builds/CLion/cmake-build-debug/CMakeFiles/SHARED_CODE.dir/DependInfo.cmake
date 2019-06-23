@@ -69,6 +69,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/OscillatorComponent.cpp" "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorComponent.cpp.o"
   "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.cpp" "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.cpp.o"
   "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp" "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/RightComponent.cpp.o"
+  "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp" "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp.o"
+  "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.cpp" "/Volumes/Macintosh HDD/dev/Juce/GPSynth/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

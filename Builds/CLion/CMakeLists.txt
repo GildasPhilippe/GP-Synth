@@ -74,6 +74,10 @@ add_library (SHARED_CODE STATIC
     "../../Source/backend/SynthSound.h"
     "../../Source/backend/SynthVoice.cpp"
     "../../Source/backend/SynthVoice.h"
+    "../../Source/frontend/materials/ComboSelector.cpp"
+    "../../Source/frontend/materials/ComboSelector.h"
+    "../../Source/frontend/materials/Potentiometer.cpp"
+    "../../Source/frontend/materials/Potentiometer.h"
     "../../Source/frontend/OscillatorComponent.cpp"
     "../../Source/frontend/OscillatorComponent.h"
     "../../Source/frontend/FilterGroupComponent.cpp"
@@ -1508,6 +1512,8 @@ set_source_files_properties ("../../Source/backend/Maximilian/maximilian.h" PROP
 set_source_files_properties ("../../Source/backend/Maximilian/stb_vorbis.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/backend/SynthSound.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/backend/SynthVoice.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../Source/frontend/materials/ComboSelector.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../Source/frontend/materials/Potentiometer.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/frontend/OscillatorComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/frontend/FilterGroupComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/frontend/OscillatorGroupComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)

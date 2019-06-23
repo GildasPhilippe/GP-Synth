@@ -11,6 +11,8 @@
 #pragma once
 
 #include "../../JuceLibraryCode/JuceHeader.h"
+#include "materials/Potentiometer.h"
+#include "materials/ComboSelector.h"
 
 //==============================================================================
 /*
@@ -27,7 +29,7 @@ public:
 private:
     int oscId;
 
-    ComboBox waveformComboBox;
+    ComboSelector waveformSelector;
 
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (OscillatorComponent)

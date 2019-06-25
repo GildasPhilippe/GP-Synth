@@ -30,6 +30,13 @@ private:
     int oscId;
 
     ComboSelector waveformSelector;
+    Potentiometer octavePot;
+    Potentiometer semisPot;
+    Potentiometer levelPot;
+
+    Label octaveLabel;
+    Label semisLabel;
+    Label levelLabel;
 
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (OscillatorComponent)

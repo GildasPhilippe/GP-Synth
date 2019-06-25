@@ -17,16 +17,52 @@
 #define SAW_ID 4
 #define NOISE_ID 5
 
+
 //==============================================================================
-OscillatorComponent::OscillatorComponent(int id) : oscId(id), waveformSelector("waveformSelector"+std::to_string(id))
+OscillatorComponent::OscillatorComponent(int id) : oscId(id),
+                        waveformSelector("waveform"+std::to_string(id)),
+                        octavePot("octave"+std::to_string(id)),
+                        semisPot("semis"+std::to_string(id)),
+                        levelPot("level"+std::to_string(id))
 {
+    // Waveform selector
+
+    addAndMakeVisible(waveformSelector);
     waveformSelector.addItem("Sine", SINE_ID);
     waveformSelector.addItem("Triangle", TRIANGLE_ID);
     waveformSelector.addItem("Square", SQUARE_ID);
     waveformSelector.addItem("Saw", SAW_ID);
     waveformSelector.addItem("Noise", NOISE_ID);
     waveformSelector.setSelectedId(SINE_ID);
-    addAndMakeVisible(waveformSelector);
+
+    // Potentiometers
+
+    addAndMakeVisible(octavePot);
+    addAndMakeVisible(semisPot);
+    addAndMakeVisible(levelPot);
+
+    addAndMakeVisible(octaveLabel);
+    addAndMakeVisible(semisLabel);
+    addAndMakeVisible(levelLabel);
+
+    //Potentiometers Label
+
+    Font labelFont(10.0f);
+
+    octaveLabel.setText ("Octave", dontSendNotification);
+    octaveLabel.setFont(labelFont);
+    octaveLabel.setJustificationType(Justification::centred);
+    //octaveLabel.attachToComponent (&octavePot, true);
+
+    semisLabel.setText ("Semis", dontSendNotification);
+    semisLabel.setFont(labelFont);
+    semisLabel.setJustificationType(Justification::centred);
+    //semisLabel.attachToComponent (&semisPot, true);
+
+    levelLabel.setText ("Level", dontSendNotification);
+    levelLabel.setFont(labelFont);
+    levelLabel.setJustificationType(Justification::centred);
+    //levelLabel.attachToComponent (&levelPot, true);
 }
 
 OscillatorComponent::~OscillatorComponent()
@@ -35,14 +71,13 @@ OscillatorComponent::~OscillatorComponent()
 
 void OscillatorComponent::paint (Graphics& g)
 {
-
     g.fillAll (Colours::chocolate);
     g.setColour (Colours::grey);
     g.drawRect (getLocalBounds(), 1);
 
     g.setColour (Colours::white);
     g.setFont (16.0f);
-    g.drawText ("Osc"+std::to_string(oscId), getLocalBounds(),
+    g.drawText ("Osc"+std::to_string(oscId+1), getLocalBounds(),
                 Justification::centredLeft, true);
 }
 
@@ -50,9 +85,9 @@ void OscillatorComponent::resized()
 {
     int textLenght(50);
     int comboBoxLenght(100), comboBoxHeight(20);
-    int marginTop(10), marginBot(10), spaceMiddle(20);
+    int marginTop(0), marginBot(0), spaceMiddle(20);
 
-    auto area = getBounds();
+    auto area = getLocalBounds();
     area.removeFromLeft(textLenght);
     area.removeFromTop(marginTop);
     area.removeFromBottom(marginBot);
@@ -64,7 +99,18 @@ void OscillatorComponent::resized()
     waveformSelector.setBounds(comboBoxBounds);
 
     area.removeFromLeft(spaceMiddle);
+    int sliderSpace(area.getWidth()/3);
 
-    //int sliderSpace(area.getWidth()/3);
 
+    auto potArea = area.removeFromLeft(sliderSpace);
+    octavePot.setBounds(potArea);
+    octaveLabel.setBounds(potArea.removeFromBottom(10));
+
+    potArea = area.removeFromLeft(sliderSpace);
+    semisPot.setBounds(potArea);
+    semisLabel.setBounds(potArea.removeFromBottom(10));
+
+    potArea = area.removeFromLeft(sliderSpace);
+    levelPot.setBounds(potArea);
+    levelLabel.setBounds(potArea.removeFromBottom(10));
 }

@@ -17,7 +17,7 @@
 class Potentiometer    : public Slider
 {
 public:
-    Potentiometer();
+    Potentiometer(String name);
     ~Potentiometer();
 
 private:

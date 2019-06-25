@@ -10,9 +10,12 @@
 
 #include "Potentiometer.h"
 
-Potentiometer::Potentiometer()
+Potentiometer::Potentiometer(String name) : Slider(name)
 {
-
+    setSliderStyle(Slider::RotaryVerticalDrag);
+    //setRotaryParameters();
+    setMouseDragSensitivity(80);
+    setTextBoxStyle(TextEntryBoxPosition::TextBoxBelow, true, 0, 0);
 }
 
 

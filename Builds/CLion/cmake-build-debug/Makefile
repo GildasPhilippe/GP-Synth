@@ -162,6 +162,33 @@ VST3/fast:
 	$(MAKE) -f CMakeFiles/VST3.dir/build.make CMakeFiles/VST3.dir/build
 .PHONY : VST3/fast
 
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.cpp.o
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.o
+
+# target to build an object file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.cpp.o
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.cpp.o
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.i: Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.cpp.i
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.i
+
+# target to preprocess a source file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.cpp.i
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.cpp.i
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.s: Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.cpp.s
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.s
+
+# target to generate assembly for a file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.cpp.s
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.cpp.s
+
 Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.mm.o
 
 .PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.o
@@ -1026,6 +1053,33 @@ Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.s:
 	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.s
 .PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.s
 
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.cpp.o
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.o
+
+# target to build an object file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.cpp.o
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.cpp.o
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.i: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.cpp.i
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.i
+
+# target to preprocess a source file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.cpp.i
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.cpp.i
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.s: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.cpp.s
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.s
+
+# target to generate assembly for a file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.cpp.s
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.cpp.s
+
 Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterGroupComponent.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterGroupComponent.cpp.o
 
 .PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterGroupComponent.o
@@ -1281,6 +1335,9 @@ help:
 	@echo "... STANDALONE_PLUGIN"
 	@echo "... SHARED_CODE"
 	@echo "... VST3"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.o"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.i"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.s"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.o"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.i"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_audio_basics.s"
@@ -1377,6 +1434,9 @@ help:
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.o"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.i"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.s"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.o"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.i"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.s"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterGroupComponent.o"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterGroupComponent.i"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterGroupComponent.s"

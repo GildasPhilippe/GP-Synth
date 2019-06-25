@@ -11,6 +11,7 @@
 #pragma once
 
 #include "../../JuceLibraryCode/JuceHeader.h"
+#include "FilterComponent.h"
 
 //==============================================================================
 /*
@@ -25,5 +26,9 @@ public:
     void resized() override;
 
 private:
+    FilterComponent lowCutComponent;
+    FilterComponent highCutComponent;
+
+
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (FilterGroupComponent)
 };

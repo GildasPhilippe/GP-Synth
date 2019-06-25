@@ -42,6 +42,16 @@
                 file="Source/frontend/materials/Potentiometer.cpp"/>
           <FILE id="cB4NhL" name="Potentiometer.h" compile="0" resource="0" file="Source/frontend/materials/Potentiometer.h"/>
         </GROUP>
+        <FILE id="niKZSz" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/frontend/MainComponent.cpp"/>
+        <FILE id="J3BsvA" name="MainComponent.h" compile="0" resource="0" file="Source/frontend/MainComponent.h"/>
+        <FILE id="nGEkbi" name="LeftComponent.cpp" compile="1" resource="0"
+              file="Source/frontend/LeftComponent.cpp"/>
+        <FILE id="ZYfYvQ" name="LeftComponent.h" compile="0" resource="0" file="Source/frontend/LeftComponent.h"/>
+        <FILE id="MANpNG" name="OscillatorGroupComponent.cpp" compile="1" resource="0"
+              file="Source/frontend/OscillatorGroupComponent.cpp"/>
+        <FILE id="vQF0mN" name="OscillatorGroupComponent.h" compile="0" resource="0"
+              file="Source/frontend/OscillatorGroupComponent.h"/>
         <FILE id="ygp1b1" name="OscillatorComponent.cpp" compile="1" resource="0"
               file="Source/frontend/OscillatorComponent.cpp"/>
         <FILE id="R0Sss1" name="OscillatorComponent.h" compile="0" resource="0"
@@ -50,13 +60,10 @@
               file="Source/frontend/FilterGroupComponent.cpp"/>
         <FILE id="u9wMtr" name="FilterGroupComponent.h" compile="0" resource="0"
               file="Source/frontend/FilterGroupComponent.h"/>
-        <FILE id="MANpNG" name="OscillatorGroupComponent.cpp" compile="1" resource="0"
-              file="Source/frontend/OscillatorGroupComponent.cpp"/>
-        <FILE id="vQF0mN" name="OscillatorGroupComponent.h" compile="0" resource="0"
-              file="Source/frontend/OscillatorGroupComponent.h"/>
-        <FILE id="nGEkbi" name="LeftComponent.cpp" compile="1" resource="0"
-              file="Source/frontend/LeftComponent.cpp"/>
-        <FILE id="ZYfYvQ" name="LeftComponent.h" compile="0" resource="0" file="Source/frontend/LeftComponent.h"/>
+        <FILE id="lhnSBO" name="FilterComponent.cpp" compile="1" resource="0"
+              file="Source/frontend/FilterComponent.cpp"/>
+        <FILE id="MUmHi9" name="FilterComponent.h" compile="0" resource="0"
+              file="Source/frontend/FilterComponent.h"/>
         <FILE id="KegjUh" name="MiddleComponent.cpp" compile="1" resource="0"
               file="Source/frontend/MiddleComponent.cpp"/>
         <FILE id="elRbmU" name="MiddleComponent.h" compile="0" resource="0"
@@ -65,9 +72,6 @@
               file="Source/frontend/RightComponent.cpp"/>
         <FILE id="BHtNFG" name="RightComponent.h" compile="0" resource="0"
               file="Source/frontend/RightComponent.h"/>
-        <FILE id="niKZSz" name="MainComponent.cpp" compile="1" resource="0"
-              file="Source/frontend/MainComponent.cpp"/>
-        <FILE id="J3BsvA" name="MainComponent.h" compile="0" resource="0" file="Source/frontend/MainComponent.h"/>
       </GROUP>
       <FILE id="Y2P7sj" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
@@ -76,6 +80,7 @@
       <FILE id="Ja9LF5" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
       <FILE id="IEH71f" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="If89x2" name="README.md" compile="0" resource="1" file="README.md"/>
     </GROUP>
   </MAINGROUP>
   <EXPORTFORMATS>

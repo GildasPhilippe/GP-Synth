@@ -4538,6 +4538,12 @@
 		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/AppConfig.h">
 			<Option target="SHARED_CODE"/>
 		</Unit>
+		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.cpp">
+			<Option target="SHARED_CODE"/>
+		</Unit>
+		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.h">
+			<Option target="SHARED_CODE"/>
+		</Unit>
 		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h">
 			<Option target="SHARED_CODE"/>
 		</Unit>
@@ -4599,6 +4605,9 @@
 			<Option target="SHARED_CODE"/>
 		</Unit>
 		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/include_juce_opengl.mm">
+			<Option target="SHARED_CODE"/>
+		</Unit>
+		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/README.md">
 			<Option target="SHARED_CODE"/>
 		</Unit>
 		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp">
@@ -4680,6 +4689,12 @@
 			<Option target="SHARED_CODE"/>
 		</Unit>
 		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.h">
+			<Option target="SHARED_CODE"/>
+		</Unit>
+		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.cpp">
+			<Option target="SHARED_CODE"/>
+		</Unit>
+		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.h">
 			<Option target="SHARED_CODE"/>
 		</Unit>
 		<Unit filename="/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/FilterGroupComponent.cpp">

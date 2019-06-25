@@ -78,24 +78,27 @@ add_library (SHARED_CODE STATIC
     "../../Source/frontend/materials/ComboSelector.h"
     "../../Source/frontend/materials/Potentiometer.cpp"
     "../../Source/frontend/materials/Potentiometer.h"
+    "../../Source/frontend/MainComponent.cpp"
+    "../../Source/frontend/MainComponent.h"
+    "../../Source/frontend/LeftComponent.cpp"
+    "../../Source/frontend/LeftComponent.h"
+    "../../Source/frontend/OscillatorGroupComponent.cpp"
+    "../../Source/frontend/OscillatorGroupComponent.h"
     "../../Source/frontend/OscillatorComponent.cpp"
     "../../Source/frontend/OscillatorComponent.h"
     "../../Source/frontend/FilterGroupComponent.cpp"
     "../../Source/frontend/FilterGroupComponent.h"
-    "../../Source/frontend/OscillatorGroupComponent.cpp"
-    "../../Source/frontend/OscillatorGroupComponent.h"
-    "../../Source/frontend/LeftComponent.cpp"
-    "../../Source/frontend/LeftComponent.h"
+    "../../Source/frontend/FilterComponent.cpp"
+    "../../Source/frontend/FilterComponent.h"
     "../../Source/frontend/MiddleComponent.cpp"
     "../../Source/frontend/MiddleComponent.h"
     "../../Source/frontend/RightComponent.cpp"
     "../../Source/frontend/RightComponent.h"
-    "../../Source/frontend/MainComponent.cpp"
-    "../../Source/frontend/MainComponent.h"
     "../../Source/PluginProcessor.cpp"
     "../../Source/PluginProcessor.h"
     "../../Source/PluginEditor.cpp"
     "../../Source/PluginEditor.h"
+    "../../README.md"
     "../../../../../../../Applications/JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h"
     "../../../../../../../Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.cpp"
     "../../../../../../../Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.h"
@@ -1482,6 +1485,8 @@ add_library (SHARED_CODE STATIC
     "../../../../../../../Applications/JUCE/modules/juce_opengl/juce_opengl.mm"
     "../../../../../../../Applications/JUCE/modules/juce_opengl/juce_opengl.h"
     "../../JuceLibraryCode/AppConfig.h"
+    "../../JuceLibraryCode/BinaryData.cpp"
+    "../../JuceLibraryCode/BinaryData.h"
     "../../JuceLibraryCode/include_juce_audio_basics.mm"
     "../../JuceLibraryCode/include_juce_audio_devices.mm"
     "../../JuceLibraryCode/include_juce_audio_formats.mm"
@@ -1514,15 +1519,17 @@ set_source_files_properties ("../../Source/backend/SynthSound.h" PROPERTIES HEAD
 set_source_files_properties ("../../Source/backend/SynthVoice.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/frontend/materials/ComboSelector.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/frontend/materials/Potentiometer.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../Source/frontend/MainComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../Source/frontend/LeftComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../Source/frontend/OscillatorGroupComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/frontend/OscillatorComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/frontend/FilterGroupComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
-set_source_files_properties ("../../Source/frontend/OscillatorGroupComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
-set_source_files_properties ("../../Source/frontend/LeftComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../Source/frontend/FilterComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/frontend/MiddleComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/frontend/RightComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
-set_source_files_properties ("../../Source/frontend/MainComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/PluginProcessor.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/PluginEditor.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../README.md" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../../../../../../Applications/JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../../../../../../Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.cpp" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../../../../../../Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.h" PROPERTIES HEADER_FILE_ONLY TRUE)
@@ -2909,6 +2916,7 @@ set_source_files_properties ("../../../../../../../Applications/JUCE/modules/juc
 set_source_files_properties ("../../../../../../../Applications/JUCE/modules/juce_opengl/juce_opengl.mm" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../../../../../../Applications/JUCE/modules/juce_opengl/juce_opengl.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../JuceLibraryCode/AppConfig.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../JuceLibraryCode/BinaryData.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../JuceLibraryCode/JuceHeader.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 
 find_program (RC_COMPILER Rez NO_DEFAULT_PATHS PATHS "/Applications/Xcode.app/Contents/Developer/usr/bin")

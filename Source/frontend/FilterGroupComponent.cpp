@@ -12,11 +12,10 @@
 #include "FilterGroupComponent.h"
 
 //==============================================================================
-FilterGroupComponent::FilterGroupComponent()
+FilterGroupComponent::FilterGroupComponent() : lowCutComponent("LowCut"), highCutComponent("HighCut")
 {
-    // In your constructor, you should add any child components, and
-    // initialise any special settings that your component needs.
-
+    addAndMakeVisible(lowCutComponent);
+    addAndMakeVisible(highCutComponent);
 }
 
 FilterGroupComponent::~FilterGroupComponent()
@@ -32,7 +31,16 @@ void FilterGroupComponent::paint (Graphics& g)
 
 void FilterGroupComponent::resized()
 {
-    // This method is where you should set the bounds of any child
-    // components that your component contains..
+    int marginSide(30), marginTop(12);
+    auto areaLeft = getLocalBounds();
+    areaLeft.removeFromTop(marginTop);
+    auto areaRight = areaLeft.removeFromRight(areaLeft.getWidth()/2);
 
+    areaLeft.removeFromLeft(marginSide);
+    areaLeft.removeFromRight(marginSide);
+    areaRight.removeFromLeft(marginSide);
+    areaRight.removeFromRight(marginSide);
+
+    lowCutComponent.setBounds(areaLeft);
+    highCutComponent.setBounds(areaRight);
 }

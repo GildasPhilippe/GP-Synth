@@ -16,16 +16,26 @@
   <component name="ChangeListManager">
     <list default="true" id="abae173f-5bf6-4f1d-814f-4383f54f25f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GP-Synth.app/Contents/MacOS/GP-Synth" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GP-Synth.app/Contents/MacOS/GP-Synth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libGP-Synth.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libGP-Synth.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VST3.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VST3.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GP-Synth.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GP-Synth.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GP-Synth.vst3/Contents/MacOS/GP-Synth" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GP-Synth.vst3/Contents/MacOS/GP-Synth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MacOSX/GP-Synth.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../MacOSX/GP-Synth.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GPSynth.jucer" beforeDir="false" afterPath="$PROJECT_DIR$/../../GPSynth.jucer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JuceLibraryCode/JuceHeader.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../JuceLibraryCode/JuceHeader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Source/frontend/LeftComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/LeftComponent.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/materials/Potentiometer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/materials/Potentiometer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/materials/Potentiometer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/materials/Potentiometer.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,22 +51,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-              <folding>
-                <element signature="e#266#311#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
+            <state relative-caret-position="76">
+              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="26" />
               <folding>
                 <element signature="e#254#299#0" expanded="true" />
               </folding>
@@ -65,22 +63,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Source/frontend/materials/Potentiometer.h">
+        <entry file="file://$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-              <folding>
-                <element signature="e#260#308#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="342">
+              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Source/frontend/materials/Potentiometer.cpp">
+        <entry file="file://$PROJECT_DIR$/../../Source/frontend/FilterComponent.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="374">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+              <folding>
+                <element signature="e#263#308#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../Source/frontend/FilterComponent.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#251#296#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,10 +118,8 @@
         <option value="$PROJECT_DIR$/../../Source/frontend/MainComponent.h" />
         <option value="$PROJECT_DIR$/../../Source/frontend/MiddleComponent.cpp" />
         <option value="$PROJECT_DIR$/../../Source/frontend/RightComponent.cpp" />
-        <option value="$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.cpp" />
         <option value="$PROJECT_DIR$/../../Source/PluginEditor.cpp" />
         <option value="$PROJECT_DIR$/../../Source/frontend/LeftComponent.h" />
-        <option value="$PROJECT_DIR$/../../Source/frontend/LeftComponent.cpp" />
         <option value="$PROJECT_DIR$/../../Source/frontend/MainComponent.cpp" />
         <option value="$PROJECT_DIR$/../../Source/frontend/materials/ComboSelector.cpp" />
         <option value="$PROJECT_DIR$/../../Source/frontend/materials/ComboSelector.h" />
@@ -120,11 +128,17 @@
         <option value="$PROJECT_DIR$/../../Source/frontend/materials/Potentiometer.h" />
         <option value="$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.h" />
         <option value="$PROJECT_DIR$/../../Source/frontend/materials/Potentiometer.cpp" />
+        <option value="$PROJECT_DIR$/../../README.md" />
+        <option value="$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.h" />
+        <option value="$PROJECT_DIR$/../../Source/frontend/LeftComponent.cpp" />
+        <option value="$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.cpp" />
+        <option value="$PROJECT_DIR$/../../Source/frontend/FilterComponent.h" />
         <option value="$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.cpp" />
+        <option value="$PROJECT_DIR$/../../Source/frontend/FilterComponent.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -172,6 +186,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -233,18 +248,19 @@
       <workItem from="1561225128530" duration="73000" />
       <workItem from="1561225285112" duration="3373000" />
       <workItem from="1561276824460" duration="15938000" />
-      <workItem from="1561470090953" duration="8690000" />
+      <workItem from="1561470090953" duration="9517000" />
+      <workItem from="1561493551588" duration="3854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29098000" />
+    <option name="totallyTimeSpent" value="33779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26979" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27382874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -330,13 +346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Source/PluginEditor.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
@@ -373,16 +382,6 @@
           <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
           <folding>
             <element signature="e#273#301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Source/frontend/LeftComponent.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
-          <folding>
-            <element signature="e#249#294#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -462,33 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/JUCE/modules/juce_core/text/juce_String.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Source/frontend/materials/Potentiometer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="e#260#308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-          <folding>
-            <element signature="e#266#311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/JUCE/modules/juce_gui_basics/widgets/juce_Label.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -499,16 +471,100 @@
     <entry file="file://$PROJECT_DIR$/../../Source/frontend/materials/Potentiometer.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/JUCE/modules/juce_core/text/juce_String.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/frontend/materials/Potentiometer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#260#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="e#268#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/frontend/LeftComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="e#249#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="e#266#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/frontend/FilterComponent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="e#263#308#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
+        <state relative-caret-position="76">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="26" />
           <folding>
             <element signature="e#254#299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/frontend/FilterComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#251#296#0" expanded="true" />
           </folding>
         </state>
       </provider>

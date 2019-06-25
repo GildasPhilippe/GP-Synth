@@ -52,17 +52,14 @@ OscillatorComponent::OscillatorComponent(int id) : oscId(id),
     octaveLabel.setText ("Octave", dontSendNotification);
     octaveLabel.setFont(labelFont);
     octaveLabel.setJustificationType(Justification::centred);
-    //octaveLabel.attachToComponent (&octavePot, true);
 
     semisLabel.setText ("Semis", dontSendNotification);
     semisLabel.setFont(labelFont);
     semisLabel.setJustificationType(Justification::centred);
-    //semisLabel.attachToComponent (&semisPot, true);
 
     levelLabel.setText ("Level", dontSendNotification);
     levelLabel.setFont(labelFont);
     levelLabel.setJustificationType(Justification::centred);
-    //levelLabel.attachToComponent (&levelPot, true);
 }
 
 OscillatorComponent::~OscillatorComponent()

@@ -14,9 +14,15 @@
 //==============================================================================
 RightComponent::RightComponent()
 {
-    // In your constructor, you should add any child components, and
-    // initialise any special settings that your component needs.
+    addAndMakeVisible(masterSlider);
+    masterSlider.setSliderStyle(Slider::LinearVertical);
+    masterSlider.setTextBoxStyle(Slider::TextEntryBoxPosition::NoTextBox, true, 0, 0);
 
+    addAndMakeVisible(masterLabel);
+    Font labelFont(16.0f);
+    masterLabel.setText ("Master", dontSendNotification);
+    masterLabel.setFont(labelFont);
+    masterLabel.setJustificationType(Justification::centred);
 }
 
 RightComponent::~RightComponent()
@@ -25,21 +31,13 @@ RightComponent::~RightComponent()
 
 void RightComponent::paint (Graphics& g)
 {
-    /* This demo code just fills the component's background and
-       draws some placeholder text to get you started.
-
-       You should replace everything in this method with your own
-       drawing code..
-    */
-
-    g.fillAll (Colours::darkgreen);
-    g.setColour (Colours::grey);
-    g.drawRect (getLocalBounds(), 1);
 }
 
 void RightComponent::resized()
 {
-    // This method is where you should set the bounds of any child
-    // components that your component contains..
-
+    int marginTop(10), marginBot(30);
+    auto area = getLocalBounds();
+    area.removeFromTop(marginTop);
+    masterSlider.setBounds(area.removeFromTop(area.getHeight()-marginBot));
+    masterLabel.setBounds(area);
 }

@@ -14,9 +14,8 @@
 //==============================================================================
 MiddleComponent::MiddleComponent()
 {
-    // In your constructor, you should add any child components, and
-    // initialise any special settings that your component needs.
-
+    addAndMakeVisible(envelopeComponent);
+    addAndMakeVisible(lfoComponent);
 }
 
 MiddleComponent::~MiddleComponent()
@@ -25,21 +24,12 @@ MiddleComponent::~MiddleComponent()
 
 void MiddleComponent::paint (Graphics& g)
 {
-    /* This demo code just fills the component's background and
-       draws some placeholder text to get you started.
-
-       You should replace everything in this method with your own
-       drawing code..
-    */
-
-    g.fillAll (Colours::darkcyan);
-    g.setColour (Colours::grey);
-    g.drawRect (getLocalBounds(), 1);
 }
 
 void MiddleComponent::resized()
 {
-    // This method is where you should set the bounds of any child
-    // components that your component contains..
-
+    int middleSpace(13);
+    auto area = getLocalBounds();
+    envelopeComponent.setBounds(area.removeFromTop(area.getHeight()*0.52));
+    lfoComponent.setBounds(area.removeFromBottom(area.getHeight()-middleSpace));
 }

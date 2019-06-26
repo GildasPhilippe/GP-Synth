@@ -24,10 +24,6 @@ LeftComponent::~LeftComponent()
 
 void LeftComponent::paint (Graphics& g)
 {
-    g.fillAll (Colours::darkred);   // clear the background
-
-    g.setColour (Colours::grey);
-    g.drawRect (getLocalBounds(), 1);
 }
 
 void LeftComponent::resized()

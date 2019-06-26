@@ -15,7 +15,7 @@ Potentiometer::Potentiometer(String name) : Slider(name)
     setSliderStyle(Slider::RotaryVerticalDrag);
     //setRotaryParameters();
     setMouseDragSensitivity(80);
-    setTextBoxStyle(TextEntryBoxPosition::TextBoxBelow, true, 0, 0);
+    setTextBoxStyle(TextEntryBoxPosition::NoTextBox, true, 0, 0);
 }
 
 

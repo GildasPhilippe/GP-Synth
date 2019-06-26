@@ -1053,6 +1053,33 @@ Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.s:
 	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.s
 .PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.s
 
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.cpp.o
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.o
+
+# target to build an object file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.cpp.o
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.cpp.o
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.i: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.cpp.i
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.i
+
+# target to preprocess a source file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.cpp.i
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.cpp.i
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.s: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.cpp.s
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.s
+
+# target to generate assembly for a file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.cpp.s
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.cpp.s
+
 Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.cpp.o
 
 .PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.o
@@ -1133,6 +1160,33 @@ Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.s: Volumes/
 Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.s:
 	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.s
 .PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.s
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.o
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.o
+
+# target to build an object file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.o
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.o
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.i: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.i
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.i
+
+# target to preprocess a source file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.i
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.i
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.s: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.s
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.s
+
+# target to generate assembly for a file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.s
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.s
 
 Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o
 
@@ -1296,6 +1350,33 @@ Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.c
 	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp.s
 .PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.cpp.s
 
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.cpp.o
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.o
+
+# target to build an object file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.cpp.o
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.cpp.o
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.i: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.cpp.i
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.i
+
+# target to preprocess a source file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.cpp.i
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.cpp.i
+
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.s: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.cpp.s
+
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.s
+
+# target to generate assembly for a file
+Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.cpp.s
+.PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.cpp.s
+
 Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.o: Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.cpp.o
 
 .PHONY : Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.o
@@ -1434,6 +1515,9 @@ help:
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.o"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.i"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.s"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.o"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.i"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.s"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.o"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.i"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.s"
@@ -1443,6 +1527,9 @@ help:
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.o"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.i"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.s"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.o"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.i"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.s"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.o"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.i"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.s"
@@ -1461,6 +1548,9 @@ help:
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.o"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.i"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.s"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.o"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.i"
+	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/PotLabel.s"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.o"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.i"
 	@echo "... Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.s"

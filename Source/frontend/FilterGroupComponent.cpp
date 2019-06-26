@@ -24,9 +24,6 @@ FilterGroupComponent::~FilterGroupComponent()
 
 void FilterGroupComponent::paint (Graphics& g)
 {
-    g.fillAll(Colours::lightblue);
-    g.setColour (Colours::grey);
-    g.drawRect (getLocalBounds(), 1);
 }
 
 void FilterGroupComponent::resized()

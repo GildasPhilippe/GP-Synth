@@ -11,6 +11,8 @@
 #pragma once
 
 #include "../../JuceLibraryCode/JuceHeader.h"
+#include "EnvelopeComponent.h"
+#include "LfoComponent.h"
 
 //==============================================================================
 /*
@@ -25,5 +27,9 @@ public:
     void resized() override;
 
 private:
+    EnvelopeComponent envelopeComponent;
+    LfoComponent lfoComponent;
+
+
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MiddleComponent)
 };

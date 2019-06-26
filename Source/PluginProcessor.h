@@ -11,8 +11,8 @@
 #pragma once
 
 #include "../JuceLibraryCode/JuceHeader.h"
-#include "./backend/SynthSound.h"
-#include "./backend/SynthVoice.h"
+#include "backend/SynthSound.h"
+#include "backend/SynthVoice.h"
 
 //==============================================================================
 /**

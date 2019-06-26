@@ -39,14 +39,10 @@ void GpsynthAudioProcessorEditor::paint (Graphics& g)
 void GpsynthAudioProcessorEditor::resized() {
 
     auto area = getLocalBounds();
-    int keyboardComponentHeight(getHeight()/4);
-    mainComponent.setBounds(area.removeFromTop(3*keyboardComponentHeight));
-    area.removeFromTop(15);//.removeFromRight(40).removeFromLeft(40).removeFromBottom(60);
+    int keyboardComponentHeight(getHeight()*0.25);
+    mainComponent.setBounds(area.removeFromTop(area.getHeight()-keyboardComponentHeight));
+    area.removeFromTop(15);
     keyboardComponent.setBounds(area);
-
-
-
-
 
     /*
     auto r = getLocalBounds();

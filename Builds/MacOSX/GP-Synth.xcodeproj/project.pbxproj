@@ -157,6 +157,14 @@
 			isa = PBXBuildFile;
 			fileRef = 6DAB5727E0CC808588B30866;
 		};
+		ADB22B597C1A834736BE3CE3 = {
+			isa = PBXBuildFile;
+			fileRef = C2F49C5E35FED68229258DB3;
+		};
+		49FAC3C1A6CD1854CC186D2E = {
+			isa = PBXBuildFile;
+			fileRef = EB942627D2B2CE98BF2310CD;
+		};
 		EE3309B69FAA0A1B43915ACE = {
 			isa = PBXBuildFile;
 			fileRef = DDA41E230CB3179F73E868EE;
@@ -168,6 +176,10 @@
 		F0BB4528610460E92D46BD89 = {
 			isa = PBXBuildFile;
 			fileRef = EFB7F0179CD9CCDB5584C459;
+		};
+		3D087020B7B248663B9FD43D = {
+			isa = PBXBuildFile;
+			fileRef = C3E514FB21FF129A6726893B;
 		};
 		19216BB1B16158CE56272070 = {
 			isa = PBXBuildFile;
@@ -252,6 +264,13 @@
 		4F2CD09C033531EE12BE3D41 = {
 			isa = PBXBuildFile;
 			fileRef = 75E28470AC86F005162A8149;
+		};
+		01BE8013C285A7918E562EE1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = PotLabel.h;
+			path = ../../Source/frontend/materials/PotLabel.h;
+			sourceTree = "SOURCE_ROOT";
 		};
 		0203A174EE83B2438DD37EE7 = {
 			isa = PBXFileReference;
@@ -377,6 +396,13 @@
 			lastKnownFileType = sourcecode.cpp.objcpp;
 			name = "include_juce_events.mm";
 			path = "../../JuceLibraryCode/include_juce_events.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2FC1EE40C6FA96B4D796B666 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = EnvelopeComponent.h;
+			path = ../../Source/frontend/EnvelopeComponent.h;
 			sourceTree = "SOURCE_ROOT";
 		};
 		31F79856C8D8866C7BF8B68B = {
@@ -764,6 +790,13 @@
 			path = "../../JuceLibraryCode/include_juce_audio_devices.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
+		AC50A2109E2E6B494E6C684A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = LfoComponent.h;
+			path = ../../Source/frontend/LfoComponent.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		B41D62224C5BFC2456B07E3B = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.objcpp;
@@ -785,12 +818,26 @@
 			path = ../../Source/frontend/materials/ComboSelector.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
+		C2F49C5E35FED68229258DB3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = EnvelopeComponent.cpp;
+			path = ../../Source/frontend/EnvelopeComponent.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
 		C3E3E58318718258E9DDCF42 = {
 			isa = PBXFileReference;
 			explicitFileType = archive.ar;
 			includeInIndex = 0;
 			path = "libGP-Synth.a";
 			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		C3E514FB21FF129A6726893B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = PotLabel.cpp;
+			path = ../../Source/frontend/materials/PotLabel.cpp;
+			sourceTree = "SOURCE_ROOT";
 		};
 		C44AC5D175A182F315A8E4CB = {
 			isa = PBXFileReference;
@@ -923,6 +970,13 @@
 			lastKnownFileType = sourcecode.c.h;
 			name = BinaryData.h;
 			path = ../../JuceLibraryCode/BinaryData.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		EB942627D2B2CE98BF2310CD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LfoComponent.cpp;
+			path = ../../Source/frontend/LfoComponent.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
 		EC70EA151CE9407C04D1F057 = {
@@ -1084,6 +1138,10 @@
 				E9BC7117193AAFC15D0E4653,
 				6DAB5727E0CC808588B30866,
 				F5D2B8C48AA01111E0F1D080,
+				C2F49C5E35FED68229258DB3,
+				2FC1EE40C6FA96B4D796B666,
+				EB942627D2B2CE98BF2310CD,
+				AC50A2109E2E6B494E6C684A,
 				DDA41E230CB3179F73E868EE,
 				BEC1A644DB53848600AECBE4,
 			);
@@ -1108,6 +1166,8 @@
 			isa = PBXGroup;
 			children = (
 				7979BDF128B7FC143C0DDE9B,
+				C3E514FB21FF129A6726893B,
+				01BE8013C285A7918E562EE1,
 			);
 			name = "GP-Synth";
 			sourceTree = "<group>";
@@ -1983,9 +2043,12 @@
 				08CF49D3E4D96AEAFAB73D91,
 				2DCA23ADB12B115235CFEB04,
 				297C2B8746D22CF139EAA7D8,
+				ADB22B597C1A834736BE3CE3,
+				49FAC3C1A6CD1854CC186D2E,
 				EE3309B69FAA0A1B43915ACE,
 				BD6A9B97C2BC47B5585DB863,
 				F0BB4528610460E92D46BD89,
+				3D087020B7B248663B9FD43D,
 				19216BB1B16158CE56272070,
 				D4B1107BCECA4AB1298B7DFB,
 				86EC6615E1F51E7A95C1F0EA,

@@ -68,6 +68,13 @@
               file="Source/frontend/MiddleComponent.cpp"/>
         <FILE id="elRbmU" name="MiddleComponent.h" compile="0" resource="0"
               file="Source/frontend/MiddleComponent.h"/>
+        <FILE id="omqgoo" name="EnvelopeComponent.cpp" compile="1" resource="0"
+              file="Source/frontend/EnvelopeComponent.cpp"/>
+        <FILE id="WASdHt" name="EnvelopeComponent.h" compile="0" resource="0"
+              file="Source/frontend/EnvelopeComponent.h"/>
+        <FILE id="XjVQAW" name="LfoComponent.cpp" compile="1" resource="0"
+              file="Source/frontend/LfoComponent.cpp"/>
+        <FILE id="IdUS1e" name="LfoComponent.h" compile="0" resource="0" file="Source/frontend/LfoComponent.h"/>
         <FILE id="Ylw9cX" name="RightComponent.cpp" compile="1" resource="0"
               file="Source/frontend/RightComponent.cpp"/>
         <FILE id="BHtNFG" name="RightComponent.h" compile="0" resource="0"
@@ -82,6 +89,8 @@
       <FILE id="IEH71f" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
       <FILE id="If89x2" name="README.md" compile="0" resource="1" file="README.md"/>
     </GROUP>
+    <FILE id="twNEvW" name="PotLabel.cpp" compile="1" resource="0" file="Source/frontend/materials/PotLabel.cpp"/>
+    <FILE id="uJaPb5" name="PotLabel.h" compile="0" resource="0" file="Source/frontend/materials/PotLabel.h"/>
   </MAINGROUP>
   <EXPORTFORMATS>
     <XCODE_MAC targetFolder="Builds/MacOSX" vst3Folder="../../../../../Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK">

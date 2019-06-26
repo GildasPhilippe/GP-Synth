@@ -25,5 +25,9 @@ public:
     void resized() override;
 
 private:
+
+    Slider masterSlider;
+    Label masterLabel;
+
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (RightComponent)
 };

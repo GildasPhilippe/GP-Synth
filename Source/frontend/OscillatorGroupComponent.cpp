@@ -32,9 +32,6 @@ OscillatorGroupComponent::~OscillatorGroupComponent()
 
 void OscillatorGroupComponent::paint (Graphics& g)
 {
-    g.fillAll(Colours::lightsalmon);
-    g.setColour (Colours::grey);
-    g.drawRect (getLocalBounds(), 1);
 }
 
 void OscillatorGroupComponent::resized()

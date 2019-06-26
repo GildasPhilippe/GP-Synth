@@ -36,12 +36,6 @@ FilterComponent::~FilterComponent()
 
 void FilterComponent::paint (Graphics& g)
 {
-
-    g.fillAll (Colours::darkkhaki);
-
-    g.setColour (Colours::grey);
-    g.drawRect (getLocalBounds(), 1);
-
     g.setColour (Colours::white);
     g.setFont (16.0f);
     g.drawText (filterName, getLocalBounds(), Justification::centredTop, true);

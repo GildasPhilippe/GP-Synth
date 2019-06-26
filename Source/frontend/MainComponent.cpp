@@ -25,12 +25,6 @@ MainComponent::~MainComponent()
 
 void MainComponent::paint (Graphics& g)
 {
-
-
-    g.fillAll (Colours::darkblue);
-
-    g.setColour (Colours::grey);
-    g.drawRect (getLocalBounds(), 1);
 }
 
 void MainComponent::resized()

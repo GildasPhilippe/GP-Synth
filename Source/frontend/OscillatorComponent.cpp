@@ -68,10 +68,6 @@ OscillatorComponent::~OscillatorComponent()
 
 void OscillatorComponent::paint (Graphics& g)
 {
-    g.fillAll (Colours::chocolate);
-    g.setColour (Colours::grey);
-    g.drawRect (getLocalBounds(), 1);
-
     g.setColour (Colours::white);
     g.setFont (16.0f);
     g.drawText ("Osc"+std::to_string(oscId+1), getLocalBounds(),

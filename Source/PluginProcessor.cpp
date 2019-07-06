@@ -22,22 +22,50 @@ GpsynthAudioProcessor::GpsynthAudioProcessor()
                        .withOutput ("Output", AudioChannelSet::stereo(), true)
                      #endif
                        ),
-       parameters (*this, nullptr, Identifier ("APVTSTutorial"),
-                   {
-                        std::make_unique<AudioParameterFloat> ("gain",    // parameter ID
-                                                                  "Gain",    // parameter name
-                                                                  0.0f,      // minimum value
-                                                                  1.0f,      // maximum value
-                                                                  0.5f),     // default value
-                   })
+        parameters (*this, nullptr, Identifier ("APVTSTutorial"),
+        {                                           // id, name, min, max, default
+             std::make_unique<AudioParameterInt> ("oscWaveform1", "OscillatorWaveform1", 1, 5, 1),
+             std::make_unique<AudioParameterInt> ("oscOctave1", "OscillatorOctave1", -3, 3, 0),
+             std::make_unique<AudioParameterInt> ("oscSemis1", "OscillatorSemis1", -12, 12, 0),
+             std::make_unique<AudioParameterFloat> ("oscLevel1", "OscillatorLevel1", 0.0f, 1.0f, 1.0f),
+
+             std::make_unique<AudioParameterInt> ("oscWaveform2", "OscillatorWaveform2", 1, 5, 1),
+             std::make_unique<AudioParameterInt> ("oscOctave2", "OscillatorOctave2", -3, 3, 0),
+             std::make_unique<AudioParameterInt> ("oscSemis2", "OscillatorSemis2", -12, 12, 0),
+             std::make_unique<AudioParameterFloat> ("oscLevel2", "OscillatorLevel2", 0.0f, 1.0f, 0.0f),
+
+             std::make_unique<AudioParameterInt> ("oscWaveform3", "OscillatorWaveform3", 1, 5, 1),
+             std::make_unique<AudioParameterInt> ("oscOctave3", "OscillatorOctave3", -3, 3, 0),
+             std::make_unique<AudioParameterInt> ("oscSemis3", "OscillatorSemis3", -12, 12, 0),
+             std::make_unique<AudioParameterFloat> ("oscLevel3", "OscillatorLevel3", 0.0f, 1.0f, 0.0f),
+
+             std::make_unique<AudioParameterInt> ("freqLC", "LowCutFreq", 20, 20000, 100),
+             std::make_unique<AudioParameterFloat> ("qLC", "LowCutQ", 0.0f, 3.0f, 0.0f),
+             std::make_unique<AudioParameterInt> ("freqHC", "HighCutFreq", 20, 20000, 100),
+             std::make_unique<AudioParameterFloat> ("qHC", "HighCutQ", 0.0f, 3.0f, 0.0f),
+
+             std::make_unique<AudioParameterFloat> ("attack", "Attack", 0.0f, 2000.0f, 0.0f),
+             std::make_unique<AudioParameterFloat> ("decay", "Decay", 0.0f, 2000.0f, 0.0f),
+             std::make_unique<AudioParameterFloat> ("sustain", "Sustain", 0.0f, 1.0f, 1.0f),
+             std::make_unique<AudioParameterFloat> ("release", "Release", 0.0f, 5000.0f, 0.0f),
+
+             std::make_unique<AudioParameterInt> ("lfoWaveform", "LFOwaveform", 1, 4, 1),
+             std::make_unique<AudioParameterFloat> ("lfoSpeed", "LFOspeed", 0.0f, 1.0f, 0.5f),
+             std::make_unique<AudioParameterFloat> ("lfoLevel", "LFOlevel", 0.0f, 1.0f, 0.0f),
+
+             std::make_unique<AudioParameterFloat> ("masterGain", "MasterGain", 0.0f, 1.0f, 0.8f),
+
+        })
 #endif
 {
-    gainParameter = parameters.getRawParameterValue ("gain");
+
+
+    masterGain = parameters.getRawParameterValue ("masterGain");
 
     synth.clearVoices();
     for (int i = 0; i < 5; i++)
     {
-        synth.addVoice(new SynthVoice());
+        synth.addVoice(new SynthVoice(parameters));
     }
     synth.clearSounds();
     synth.addSound(new SynthSound());
@@ -166,9 +194,8 @@ void GpsynthAudioProcessor::processBlock (AudioBuffer<float>& buffer, MidiBuffer
 
     buffer.clear();
 
-
     synth.renderNextBlock(buffer, midiMessages, 0, buffer.getNumSamples());
-    buffer.applyGain (*gainParameter);
+    buffer.applyGain (*masterGain);
 }
 
 //==============================================================================

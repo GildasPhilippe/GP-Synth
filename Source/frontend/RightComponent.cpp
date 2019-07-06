@@ -12,7 +12,7 @@
 #include "RightComponent.h"
 
 //==============================================================================
-RightComponent::RightComponent()
+RightComponent::RightComponent(AudioProcessorValueTreeState& vts) : valueTreeState(vts)
 {
     addAndMakeVisible(masterSlider);
     masterSlider.setSliderStyle(Slider::LinearVertical);
@@ -23,6 +23,9 @@ RightComponent::RightComponent()
     masterLabel.setText ("Master", dontSendNotification);
     masterLabel.setFont(labelFont);
     masterLabel.setJustificationType(Justification::centred);
+
+
+    gainAttachment.reset (new SliderAttachment (valueTreeState, "masterGain", masterSlider));
 }
 
 RightComponent::~RightComponent()

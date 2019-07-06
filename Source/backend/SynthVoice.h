@@ -16,6 +16,7 @@
 class SynthVoice : public SynthesiserVoice
 {
 public:
+    SynthVoice (AudioProcessorValueTreeState&);
     bool canPlaySound (SynthesiserSound * sound) override;
     void startNote (int midiNoteNumber, float velocity, SynthesiserSound *sound, int currentPitchWheelPosition) override;
     void stopNote (float velocity, bool allowTailOff) override ;
@@ -24,6 +25,8 @@ public:
     void renderNextBlock (AudioBuffer< float > &outputBuffer, int startSample, int numSamples) override;
 
 private:
+    AudioProcessorValueTreeState& parameters;
+
     double level;
     double frequency;
 
@@ -31,5 +34,10 @@ private:
     maxiOsc oscillator;
     maxiEnv envelope;
 
-    float attackTime;
+    int* oscWaveform1 = nullptr; int* oscOctave1 = nullptr; int* oscSemis1 = nullptr; float* oscLevel1 = nullptr;
+    int* oscWaveform2 = nullptr; int* oscOctave2 = nullptr; int* oscSemis2 = nullptr; float* oscLevel2 = nullptr;
+    int* oscWaveform3 = nullptr; int* oscOctave3 = nullptr; int* oscSemis3 = nullptr; float* oscLevel3  = nullptr;
+    int* freqLC = nullptr; int* freqHC = nullptr; float* qLC = nullptr; float* qHC = nullptr;
+    float* attack = nullptr; float* decay = nullptr; float* sustain = nullptr; float* release = nullptr;
+    int* lfoWaveform = nullptr; float* lfoSpeed = nullptr; float* lfoLevel = nullptr;
 };

@@ -63,8 +63,9 @@ private:
     double lastSampleRate;
 
     AudioProcessorValueTreeState parameters;
-    float previousGain;
-    float* gainParameter  = nullptr;
+
+    float previousMasterGain;
+    float* masterGain = nullptr;
 
 
     //==============================================================================

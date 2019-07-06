@@ -14,7 +14,8 @@
 //==============================================================================
 GpsynthAudioProcessorEditor::GpsynthAudioProcessorEditor (GpsynthAudioProcessor& p, AudioProcessorValueTreeState& vts)
     : AudioProcessorEditor (&p), processor (p), valueTreeState(vts),
-      keyboardComponent (keyboardState, MidiKeyboardComponent::horizontalKeyboard)
+      keyboardComponent (keyboardState, MidiKeyboardComponent::horizontalKeyboard),
+      mainComponent(vts)
 {
     setSize (600, 370);
     /*
@@ -43,12 +44,5 @@ void GpsynthAudioProcessorEditor::resized() {
     mainComponent.setBounds(area.removeFromTop(area.getHeight()-keyboardComponentHeight));
     area.removeFromTop(15);
     keyboardComponent.setBounds(area);
-
-    /*
-    auto r = getLocalBounds();
-    auto gainRect = r.removeFromTop (50);
-    gainLabel .setBounds (gainRect.removeFromLeft (50));
-    gainSlider.setBounds (gainRect);
-     */
 
 }

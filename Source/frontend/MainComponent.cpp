@@ -12,7 +12,10 @@
 #include "MainComponent.h"
 
 //==============================================================================
-MainComponent::MainComponent()
+MainComponent::MainComponent(AudioProcessorValueTreeState& vts) : valueTreeState(vts),
+                                    //leftComponent(vts),
+                                    //middleComponent(vts),
+                                    rightComponent(vts)
 {
     addAndMakeVisible(leftComponent);
     addAndMakeVisible(middleComponent);

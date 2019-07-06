@@ -38,15 +38,5 @@ private:
 
     MainComponent mainComponent;
 
-
-
-
-
-    typedef AudioProcessorValueTreeState::SliderAttachment SliderAttachment;
-
-    Label gainLabel;
-    Slider gainSlider;
-    std::unique_ptr<SliderAttachment> gainAttachment;
-
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (GpsynthAudioProcessorEditor)
 };

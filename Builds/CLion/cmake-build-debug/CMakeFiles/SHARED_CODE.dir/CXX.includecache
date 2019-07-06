@@ -2378,27 +2378,49 @@ juce_opengl/juce_opengl.h
 BinaryData.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.h
 
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/Maximilian/maximilian.h
+iostream
+-
+fstream
+-
+string.h
+-
+cassert
+-
+cstdlib
+-
+math.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/Maximilian/math.h
+cerrno
+-
+queue
+-
+vector
+-
+pthread.h
+-
+unistd.h
+-
+algorithm
+-
+Windows.h
+-
+process.h
+-
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthSound.h
 ../../JuceLibraryCode/JuceHeader.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
-LfoComponent.h
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.h
 
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp
+SynthVoice.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.h
 ../../JuceLibraryCode/JuceHeader.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
-materials/Potentiometer.h
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.h
-materials/ComboSelector.h
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.h
-
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.h
-../../../JuceLibraryCode/JuceHeader.h
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
-
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/frontend/materials/Potentiometer.h
-../../../JuceLibraryCode/JuceHeader.h
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
-../../../JuceLibraryCode/JuceHeader.h
-/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
+Maximilian/maximilian.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/Maximilian/maximilian.h
+SynthSound.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthSound.h
 

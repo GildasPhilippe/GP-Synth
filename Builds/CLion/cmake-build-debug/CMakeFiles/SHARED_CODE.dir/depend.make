@@ -5487,6 +5487,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginE
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/AppConfig.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
+CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/./backend/Waveforms.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/./frontend/EnvelopeComponent.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/./frontend/FilterComponent.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/./frontend/FilterGroupComponent.h
@@ -5506,6 +5507,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginE
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/Maximilian/maximilian.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/SynthSound.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.h
+CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/Waveforms.h
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o: /Applications/JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o: /Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.h
@@ -6009,6 +6011,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginP
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/AppConfig.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
+CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/./backend/Waveforms.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/./frontend/EnvelopeComponent.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/./frontend/FilterComponent.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/./frontend/FilterGroupComponent.h
@@ -6028,6 +6031,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginP
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/Maximilian/maximilian.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/SynthSound.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.h
+CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/Waveforms.h
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/Maximilian/libs/fft.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/Maximilian/libs/fft.cpp
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/Maximilian/libs/fft.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/Maximilian/libs/fft.h
@@ -7075,6 +7079,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/SynthSound.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.h
+CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/Waveforms.h
 
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.cpp.o: /Applications/JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.cpp.o: /Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.h
@@ -9609,6 +9614,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/fronten
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/AppConfig.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
+CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/Waveforms.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.h
@@ -10116,6 +10122,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/fronten
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/AppConfig.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
+CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/Waveforms.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/FilterGroupComponent.h
@@ -10633,6 +10640,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/fronten
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/AppConfig.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
+CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/Waveforms.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp

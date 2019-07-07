@@ -12,7 +12,7 @@
 #include "OscillatorGroupComponent.h"
 
 //==============================================================================
-OscillatorGroupComponent::OscillatorGroupComponent()
+OscillatorGroupComponent::OscillatorGroupComponent(AudioProcessorValueTreeState& vts) : valueTreeState(vts)
 {
 
     for(int i = 0; i<3; ++i){

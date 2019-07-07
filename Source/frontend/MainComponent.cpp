@@ -13,8 +13,8 @@
 
 //==============================================================================
 MainComponent::MainComponent(AudioProcessorValueTreeState& vts) : valueTreeState(vts),
-                                    //leftComponent(vts),
-                                    //middleComponent(vts),
+                                    leftComponent(vts),
+                                    middleComponent(vts),
                                     rightComponent(vts)
 {
     addAndMakeVisible(leftComponent);

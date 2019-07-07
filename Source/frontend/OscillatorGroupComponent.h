@@ -20,7 +20,7 @@
 class OscillatorGroupComponent    : public Component
 {
 public:
-    OscillatorGroupComponent();
+    OscillatorGroupComponent(AudioProcessorValueTreeState&);
     ~OscillatorGroupComponent();
 
     void paint (Graphics&) override;
@@ -28,6 +28,8 @@ public:
 
 private:
     std::vector<OscillatorComponent*> oscillatorComponents;
+
+    AudioProcessorValueTreeState& valueTreeState;
 
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (OscillatorGroupComponent)

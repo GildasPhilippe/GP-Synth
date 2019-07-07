@@ -20,7 +20,7 @@
 class LeftComponent    : public Component
 {
 public:
-    LeftComponent();
+    LeftComponent(AudioProcessorValueTreeState&);
     ~LeftComponent();
 
     void paint (Graphics&) override;
@@ -29,6 +29,8 @@ public:
 private:
     OscillatorGroupComponent oscillatorGroupComponent;
     FilterGroupComponent filterGroupComponent;
+
+    AudioProcessorValueTreeState& valueTreeState;
 
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (LeftComponent)

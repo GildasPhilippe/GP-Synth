@@ -19,7 +19,7 @@
 class FilterGroupComponent    : public Component
 {
 public:
-    FilterGroupComponent();
+    FilterGroupComponent(AudioProcessorValueTreeState&);
     ~FilterGroupComponent();
 
     void paint (Graphics&) override;
@@ -28,6 +28,8 @@ public:
 private:
     FilterComponent lowCutComponent;
     FilterComponent highCutComponent;
+
+    AudioProcessorValueTreeState& valueTreeState;
 
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (FilterGroupComponent)

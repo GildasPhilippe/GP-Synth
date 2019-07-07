@@ -12,7 +12,11 @@
 #include "FilterComponent.h"
 
 //==============================================================================
-FilterComponent::FilterComponent(String name) : filterName(name), freqPot(name+"FreqPot"), qPot(name+"QPot")
+FilterComponent::FilterComponent(AudioProcessorValueTreeState& vts, String name) :
+                                                            valueTreeState(vts),
+                                                            filterName(name),
+                                                            freqPot(name+"FreqPot"),
+                                                            qPot(name+"QPot")
 {
     addAndMakeVisible(freqPot);
     addAndMakeVisible(qPot);
@@ -28,6 +32,10 @@ FilterComponent::FilterComponent(String name) : filterName(name), freqPot(name+"
     qLabel.setText ("Q", dontSendNotification);
     qLabel.setFont(labelFont);
     qLabel.setJustificationType(Justification::centred);
+
+
+    freqAttachment.reset (new SliderAttachment (valueTreeState, "freq"+name, freqPot));
+    qAttachment.reset (new SliderAttachment (valueTreeState, "q"+name, qPot));
 }
 
 FilterComponent::~FilterComponent()

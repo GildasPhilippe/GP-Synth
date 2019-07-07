@@ -12,7 +12,9 @@
 #include "FilterGroupComponent.h"
 
 //==============================================================================
-FilterGroupComponent::FilterGroupComponent() : lowCutComponent("LowCut"), highCutComponent("HighCut")
+FilterGroupComponent::FilterGroupComponent(AudioProcessorValueTreeState& vts) : valueTreeState(vts),
+                                                                            lowCutComponent(vts, "LC"),
+                                                                            highCutComponent(vts, "HC")
 {
     addAndMakeVisible(lowCutComponent);
     addAndMakeVisible(highCutComponent);

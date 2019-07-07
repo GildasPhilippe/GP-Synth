@@ -19,7 +19,7 @@
 class FilterComponent    : public Component
 {
 public:
-    FilterComponent(String name);
+    FilterComponent(AudioProcessorValueTreeState&, String name);
     ~FilterComponent();
 
     void paint (Graphics&) override;
@@ -33,6 +33,13 @@ private:
 
     Label freqLabel;
     Label qLabel;
+
+
+    typedef AudioProcessorValueTreeState::SliderAttachment SliderAttachment;
+    AudioProcessorValueTreeState& valueTreeState;
+    std::unique_ptr<SliderAttachment> freqAttachment;
+    std::unique_ptr<SliderAttachment> qAttachment;
+
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (FilterComponent)
 };

@@ -23,7 +23,7 @@ GpsynthAudioProcessor::GpsynthAudioProcessor()
                      #endif
                        ),
         parameters (*this, nullptr, Identifier ("APVTSTutorial"),
-        {                                           // id, name, min, max, default
+        {                                        // id, name, min, max, default
              std::make_unique<AudioParameterInt> ("oscWaveform1", "OscillatorWaveform1", 1, 5, 1),
              std::make_unique<AudioParameterInt> ("oscOctave1", "OscillatorOctave1", -3, 3, 0),
              std::make_unique<AudioParameterInt> ("oscSemis1", "OscillatorSemis1", -12, 12, 0),
@@ -39,18 +39,18 @@ GpsynthAudioProcessor::GpsynthAudioProcessor()
              std::make_unique<AudioParameterInt> ("oscSemis3", "OscillatorSemis3", -12, 12, 0),
              std::make_unique<AudioParameterFloat> ("oscLevel3", "OscillatorLevel3", 0.0f, 1.0f, 0.0f),
 
-             std::make_unique<AudioParameterInt> ("freqLC", "LowCutFreq", 20, 20000, 100),
-             std::make_unique<AudioParameterFloat> ("qLC", "LowCutQ", 0.0f, 3.0f, 0.0f),
-             std::make_unique<AudioParameterInt> ("freqHC", "HighCutFreq", 20, 20000, 100),
-             std::make_unique<AudioParameterFloat> ("qHC", "HighCutQ", 0.0f, 3.0f, 0.0f),
+             std::make_unique<AudioParameterFloat> ("freqLC", "LowCutFreq", 20.0f, 20000.0f, 20.0f),
+             std::make_unique<AudioParameterFloat> ("qLC", "LowCutQ", 1.0f, 5.0f, 1.0f),
+             std::make_unique<AudioParameterFloat> ("freqHC", "HighCutFreq", 20.0f, 20000.0f, 20000.0f),
+             std::make_unique<AudioParameterFloat> ("qHC", "HighCutQ", 1.0f, 5.0f, 1.0f),
 
              std::make_unique<AudioParameterFloat> ("attack", "Attack", 0.0f, 2000.0f, 0.0f),
-             std::make_unique<AudioParameterFloat> ("decay", "Decay", 0.0f, 2000.0f, 0.0f),
+             std::make_unique<AudioParameterFloat> ("decay", "Decay", 0.1f, 2000.0f, 0.1f),
              std::make_unique<AudioParameterFloat> ("sustain", "Sustain", 0.0f, 1.0f, 1.0f),
              std::make_unique<AudioParameterFloat> ("release", "Release", 0.0f, 5000.0f, 0.0f),
 
              std::make_unique<AudioParameterInt> ("lfoWaveform", "LFOwaveform", 1, 4, 1),
-             std::make_unique<AudioParameterFloat> ("lfoSpeed", "LFOspeed", 0.0f, 1.0f, 0.5f),
+             std::make_unique<AudioParameterFloat> ("lfoSpeed", "LFOspeed", 0.0f, 10.0f, 2.0f),
              std::make_unique<AudioParameterFloat> ("lfoLevel", "LFOlevel", 0.0f, 1.0f, 0.0f),
 
              std::make_unique<AudioParameterFloat> ("masterGain", "MasterGain", 0.0f, 1.0f, 0.8f),
@@ -143,6 +143,7 @@ void GpsynthAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBloc
     ignoreUnused(samplesPerBlock);
     lastSampleRate = sampleRate;
     synth.setCurrentPlaybackSampleRate(lastSampleRate);
+    maxiSettings::sampleRate = sampleRate;
 }
 
 void GpsynthAudioProcessor::releaseResources()

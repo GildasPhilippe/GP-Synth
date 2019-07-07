@@ -9,6 +9,10 @@
 */
 
 #include "SynthVoice.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
 
 SynthVoice::SynthVoice(AudioProcessorValueTreeState& vts) : parameters(vts)
 {
@@ -27,9 +31,9 @@ SynthVoice::SynthVoice(AudioProcessorValueTreeState& vts) : parameters(vts)
     //oscSemis3 = parameters.getRawParameterValue ("oscSemis3");
     oscLevel3 = parameters.getRawParameterValue ("oscLevel3");
 
-    //freqLC = parameters.getRawParameterValue ("freqLC");
+    freqLC = parameters.getRawParameterValue ("freqLC");
     qLC = parameters.getRawParameterValue ("qLC");
-    //freqHC = parameters.getRawParameterValue ("freqHC");
+    freqHC = parameters.getRawParameterValue ("freqHC");
     qHC = parameters.getRawParameterValue ("qHC");
 
     attack = parameters.getRawParameterValue ("attack");
@@ -37,9 +41,11 @@ SynthVoice::SynthVoice(AudioProcessorValueTreeState& vts) : parameters(vts)
     sustain = parameters.getRawParameterValue ("sustain");
     release = parameters.getRawParameterValue ("release");
 
-    //lfoWaveform = parameters.getRawParameterValue ("lfoWaveform");
+    lfoWaveform = parameters.getRawParameterValue ("lfoWaveform");
     lfoSpeed = parameters.getRawParameterValue ("lfoSpeed");
     lfoLevel = parameters.getRawParameterValue ("lfoLevel");
+
+
 }
 
 bool SynthVoice::canPlaySound(SynthesiserSound * sound) {
@@ -74,19 +80,49 @@ void SynthVoice::renderNextBlock(AudioBuffer<float> &outputBuffer, int startSamp
     envelope.setSustain(static_cast<double>(*sustain));
     envelope.setRelease(static_cast<double>(*release));
 
-    envelope.setAttack(200);
-    envelope.setDecay(200);
-    envelope.setSustain(0.4);
-    envelope.setRelease(2000);
 
     for(int sample = 0; sample < numSamples; ++sample){
 
-        double wave = oscillator.sinewave(frequency) * level;
-        double sound = envelope.adsr(wave, envelope.trigger) * level;
+        double sound1 = oscillator.square(frequency);
+
+        double sound = sound1;
+
+        //sound = lowFilter.hires(sound, static_cast<double>(*freqLC), static_cast<double>(*qLC));
+        // pops :
+        //sound = highFilter.lores(sound, static_cast<double>(*freqHC), static_cast<double>(*qHC));
+
+        double lfo = getLfo(*lfoLevel, *lfoSpeed, (int)std::round(*lfoWaveform));
+        sound = envelope.adsr(sound, envelope.trigger) *lfo * level;
+
+        //std::cout << (int)std::round(*lfoWaveform) <<endl;
+
+
 
         for(int channel = 0; channel < outputBuffer.getNumChannels(); ++channel){
             outputBuffer.addSample(channel, startSample, sound);
         }
         ++startSample;
     }
+}
+
+double SynthVoice::getLfo (float level, float speed, int waveform) {
+    double wave;
+    switch(waveform) {
+        case Waveform::sine:
+            wave = lfoOscillator.sinewave(speed);
+            break;
+        case Waveform::triangle:
+            wave = lfoOscillator.triangle(speed);
+            break;
+        case Waveform::square:
+            wave = lfoOscillator.square(speed);
+            break;
+        case Waveform::saw:
+            wave = lfoOscillator.saw(speed);
+            break;
+        default:
+            wave = 0;
+            break;
+    }
+    return 1 + level * wave;
 }

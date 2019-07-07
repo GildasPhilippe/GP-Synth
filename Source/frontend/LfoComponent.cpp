@@ -11,21 +11,19 @@
 #include "../../JuceLibraryCode/JuceHeader.h"
 #include "LfoComponent.h"
 
-#define SINE_ID 1
-#define TRIANGLE_ID 2
-#define SQUARE_ID 3
-#define SAW_ID 4
-
 
 //==============================================================================
-LfoComponent::LfoComponent() : waveformSelector("waveformLfo"), speedPot("speedPot"), levelPot("lfolevelPot")
+LfoComponent::LfoComponent(AudioProcessorValueTreeState& vts) : valueTreeState(vts),
+                                                    waveformSelector("waveformLfo"),
+                                                    speedPot("speedPot"),
+                                                    levelPot("lfolevelPot")
 {
     addAndMakeVisible(waveformSelector);
-    waveformSelector.addItem("Sine", SINE_ID);
-    waveformSelector.addItem("Triangle", TRIANGLE_ID);
-    waveformSelector.addItem("Square", SQUARE_ID);
-    waveformSelector.addItem("Saw", SAW_ID);
-    waveformSelector.setSelectedId(SINE_ID);
+    waveformSelector.addItem("Sine", Waveform::sine);
+    waveformSelector.addItem("Triangle", Waveform::triangle);
+    waveformSelector.addItem("Square", Waveform::square);
+    waveformSelector.addItem("Saw", Waveform::saw);
+    waveformSelector.setSelectedId(Waveform::sine);
 
     addAndMakeVisible(speedPot);
     addAndMakeVisible(levelPot);
@@ -42,6 +40,11 @@ LfoComponent::LfoComponent() : waveformSelector("waveformLfo"), speedPot("speedP
     levelLabel.setText ("Level", dontSendNotification);
     levelLabel.setFont(labelFont);
     levelLabel.setJustificationType(Justification::centred);
+
+
+    speedAttachment.reset (new SliderAttachment (valueTreeState, "lfoSpeed", speedPot));
+    levelAttachment.reset (new SliderAttachment (valueTreeState, "lfoLevel", levelPot));
+    waveformAttachment.reset (new ComboBoxAttachment (valueTreeState, "lfoWaveform", waveformSelector));
 }
 
 LfoComponent::~LfoComponent()

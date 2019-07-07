@@ -12,7 +12,9 @@
 #include "MiddleComponent.h"
 
 //==============================================================================
-MiddleComponent::MiddleComponent()
+MiddleComponent::MiddleComponent(AudioProcessorValueTreeState& vts) : valueTreeState(vts),
+                                        lfoComponent(vts),
+                                        envelopeComponent(vts)
 {
     addAndMakeVisible(envelopeComponent);
     addAndMakeVisible(lfoComponent);

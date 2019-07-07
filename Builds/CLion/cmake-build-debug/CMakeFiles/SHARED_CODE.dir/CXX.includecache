@@ -2378,6 +2378,128 @@ juce_opengl/juce_opengl.h
 BinaryData.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.h
 
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./backend/Waveforms.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/EnvelopeComponent.h
+../../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/JuceLibraryCode/JuceHeader.h
+materials/Potentiometer.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/materials/Potentiometer.h
+materials/PotLabel.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/materials/PotLabel.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/FilterComponent.h
+../../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/JuceLibraryCode/JuceHeader.h
+materials/Potentiometer.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/materials/Potentiometer.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/FilterGroupComponent.h
+../../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/JuceLibraryCode/JuceHeader.h
+FilterComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/FilterComponent.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/LeftComponent.h
+../../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/JuceLibraryCode/JuceHeader.h
+OscillatorGroupComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/OscillatorGroupComponent.h
+FilterGroupComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/FilterGroupComponent.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/LfoComponent.h
+../../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/JuceLibraryCode/JuceHeader.h
+materials/Potentiometer.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/materials/Potentiometer.h
+materials/ComboSelector.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/materials/ComboSelector.h
+../backend/Waveforms.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./backend/Waveforms.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/MainComponent.h
+../../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/JuceLibraryCode/JuceHeader.h
+LeftComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/LeftComponent.h
+MiddleComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/MiddleComponent.h
+RightComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/RightComponent.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/MiddleComponent.h
+../../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/JuceLibraryCode/JuceHeader.h
+EnvelopeComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/EnvelopeComponent.h
+LfoComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/LfoComponent.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/OscillatorComponent.h
+../../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/JuceLibraryCode/JuceHeader.h
+materials/Potentiometer.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/materials/Potentiometer.h
+materials/ComboSelector.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/materials/ComboSelector.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/OscillatorGroupComponent.h
+../../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/JuceLibraryCode/JuceHeader.h
+OscillatorComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/OscillatorComponent.h
+vector
+-
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/RightComponent.h
+../../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/JuceLibraryCode/JuceHeader.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/materials/ComboSelector.h
+../../../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/JuceLibraryCode/JuceHeader.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/materials/PotLabel.h
+../../../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/JuceLibraryCode/JuceHeader.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/materials/Potentiometer.h
+../../../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/JuceLibraryCode/JuceHeader.h
+../../../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/JuceLibraryCode/JuceHeader.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp
+PluginProcessor.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginProcessor.h
+PluginEditor.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginEditor.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginEditor.h
+../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
+PluginProcessor.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginProcessor.h
+./frontend/MainComponent.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/./frontend/MainComponent.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp
+PluginProcessor.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginProcessor.h
+PluginEditor.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginEditor.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/PluginProcessor.h
+../JuceLibraryCode/JuceHeader.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
+backend/SynthSound.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthSound.h
+backend/SynthVoice.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.h
+backend/Maximilian/maximilian.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/Maximilian/maximilian.h
+
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/Maximilian/maximilian.h
 iostream
 -
@@ -2415,6 +2537,14 @@ process.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp
 SynthVoice.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.h
+iostream
+-
+string
+-
+vector
+-
+fstream
+-
 
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.h
 ../../JuceLibraryCode/JuceHeader.h
@@ -2423,4 +2553,8 @@ Maximilian/maximilian.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/Maximilian/maximilian.h
 SynthSound.h
 /Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/SynthSound.h
+Waveforms.h
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/Waveforms.h
+
+/Volumes/Macintosh HDD/dev/Juce/GPSynth/Source/backend/Waveforms.h
 

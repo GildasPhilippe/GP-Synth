@@ -12,7 +12,9 @@
 #include "LeftComponent.h"
 
 //==============================================================================
-LeftComponent::LeftComponent()
+LeftComponent::LeftComponent(AudioProcessorValueTreeState& vts) : valueTreeState(vts),
+                                                                oscillatorGroupComponent(vts),
+                                                                filterGroupComponent(vts)
 {
     addAndMakeVisible(oscillatorGroupComponent);
     addAndMakeVisible(filterGroupComponent);

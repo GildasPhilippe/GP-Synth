@@ -12,6 +12,7 @@
 #include "../../JuceLibraryCode/JuceHeader.h"
 #include "Maximilian/maximilian.h"
 #include "SynthSound.h"
+#include "Waveforms.h"
 
 class SynthVoice : public SynthesiserVoice
 {
@@ -24,6 +25,8 @@ public:
     void controllerMoved (int controllerNumber, int newControllerValue) override;
     void renderNextBlock (AudioBuffer< float > &outputBuffer, int startSample, int numSamples) override;
 
+    double getLfo (float level, float speed, int waveform);
+
 private:
     AudioProcessorValueTreeState& parameters;
 
@@ -32,12 +35,15 @@ private:
 
     int noteNumber;
     maxiOsc oscillator;
+    maxiOsc lfoOscillator;
     maxiEnv envelope;
+    maxiFilter lowFilter;
+    maxiFilter highFilter;
 
-    int* oscWaveform1 = nullptr; int* oscOctave1 = nullptr; int* oscSemis1 = nullptr; float* oscLevel1 = nullptr;
-    int* oscWaveform2 = nullptr; int* oscOctave2 = nullptr; int* oscSemis2 = nullptr; float* oscLevel2 = nullptr;
-    int* oscWaveform3 = nullptr; int* oscOctave3 = nullptr; int* oscSemis3 = nullptr; float* oscLevel3  = nullptr;
-    int* freqLC = nullptr; int* freqHC = nullptr; float* qLC = nullptr; float* qHC = nullptr;
+    float* oscWaveform1 = nullptr; float* oscOctave1 = nullptr; float* oscSemis1 = nullptr; float* oscLevel1 = nullptr;
+    float* oscWaveform2 = nullptr; float* oscOctave2 = nullptr; float* oscSemis2 = nullptr; float* oscLevel2 = nullptr;
+    float* oscWaveform3 = nullptr; float* oscOctave3 = nullptr; float* oscSemis3 = nullptr; float* oscLevel3  = nullptr;
+    float* freqLC = nullptr; float* freqHC = nullptr; float* qLC = nullptr; float* qHC = nullptr;
     float* attack = nullptr; float* decay = nullptr; float* sustain = nullptr; float* release = nullptr;
-    int* lfoWaveform = nullptr; float* lfoSpeed = nullptr; float* lfoLevel = nullptr;
+    float* lfoWaveform = nullptr; float* lfoSpeed = nullptr; float* lfoLevel = nullptr;
 };

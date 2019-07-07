@@ -20,7 +20,7 @@
 class EnvelopeComponent    : public Component
 {
 public:
-    EnvelopeComponent();
+    EnvelopeComponent(AudioProcessorValueTreeState&);
     ~EnvelopeComponent();
 
     void paint (Graphics&) override;
@@ -36,6 +36,14 @@ private:
     Label decayLabel;
     Label sustainLabel;
     Label releaseLabel;
+
+
+    typedef AudioProcessorValueTreeState::SliderAttachment SliderAttachment;
+    AudioProcessorValueTreeState& valueTreeState;
+    std::unique_ptr<SliderAttachment> attackAttachment;
+    std::unique_ptr<SliderAttachment> decayAttachment;
+    std::unique_ptr<SliderAttachment> sustainAttachment;
+    std::unique_ptr<SliderAttachment> releaseAttachment;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (EnvelopeComponent)
 };

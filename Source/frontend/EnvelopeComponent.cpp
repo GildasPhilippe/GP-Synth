@@ -12,7 +12,8 @@
 #include "EnvelopeComponent.h"
 
 //==============================================================================
-EnvelopeComponent::EnvelopeComponent() : attackPot("attackPot"),
+EnvelopeComponent::EnvelopeComponent(AudioProcessorValueTreeState& vts) : valueTreeState(vts),
+                                        attackPot("attackPot"),
                                         decayPot("decayPot"),
                                         sustainPot("sustainPot"),
                                         releasePot("releasePot")
@@ -44,6 +45,13 @@ EnvelopeComponent::EnvelopeComponent() : attackPot("attackPot"),
     releaseLabel.setText ("Release", dontSendNotification);
     releaseLabel.setFont(labelFont);
     releaseLabel.setJustificationType(Justification::centred);
+
+    
+    attackAttachment.reset (new SliderAttachment (valueTreeState, "attack", attackPot));
+    decayAttachment.reset (new SliderAttachment (valueTreeState, "decay", decayPot));
+    sustainAttachment.reset (new SliderAttachment (valueTreeState, "sustain", sustainPot));
+    releaseAttachment.reset (new SliderAttachment (valueTreeState, "release", releasePot));
+     
 }
 
 EnvelopeComponent::~EnvelopeComponent()

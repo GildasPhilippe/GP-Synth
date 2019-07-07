@@ -20,7 +20,7 @@
 class MiddleComponent    : public Component
 {
 public:
-    MiddleComponent();
+    MiddleComponent(AudioProcessorValueTreeState&);
     ~MiddleComponent();
 
     void paint (Graphics&) override;
@@ -30,6 +30,7 @@ private:
     EnvelopeComponent envelopeComponent;
     LfoComponent lfoComponent;
 
+    AudioProcessorValueTreeState& valueTreeState;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MiddleComponent)
 };

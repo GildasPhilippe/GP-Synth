@@ -11,29 +11,24 @@
 #include "../../JuceLibraryCode/JuceHeader.h"
 #include "OscillatorComponent.h"
 
-#define SINE_ID 1
-#define TRIANGLE_ID 2
-#define SQUARE_ID 3
-#define SAW_ID 4
-#define NOISE_ID 5
-
 
 //==============================================================================
-OscillatorComponent::OscillatorComponent(int id) : oscId(id),
-                        waveformSelector("waveform"+std::to_string(id)),
-                        octavePot("octave"+std::to_string(id)),
-                        semisPot("semis"+std::to_string(id)),
-                        levelPot("level"+std::to_string(id))
+OscillatorComponent::OscillatorComponent(int id, AudioProcessorValueTreeState& vts) : valueTreeState(vts),
+                                                oscId(id),
+                                                waveformSelector("waveform"+std::to_string(id)),
+                                                octavePot("octave"+std::to_string(id)),
+                                                semisPot("semis"+std::to_string(id)),
+                                                levelPot("level"+std::to_string(id))
 {
     // Waveform selector
 
     addAndMakeVisible(waveformSelector);
-    waveformSelector.addItem("Sine", SINE_ID);
-    waveformSelector.addItem("Triangle", TRIANGLE_ID);
-    waveformSelector.addItem("Square", SQUARE_ID);
-    waveformSelector.addItem("Saw", SAW_ID);
-    waveformSelector.addItem("Noise", NOISE_ID);
-    waveformSelector.setSelectedId(SINE_ID);
+    waveformSelector.addItem("Sine", Waveform::sine);
+    waveformSelector.addItem("Triangle", Waveform::triangle);
+    waveformSelector.addItem("Square", Waveform::square);
+    waveformSelector.addItem("Saw", Waveform::saw);
+    waveformSelector.addItem("Noise", Waveform::noise);
+    waveformSelector.setSelectedId(Waveform::sine);
 
     // Potentiometers
 
@@ -45,7 +40,7 @@ OscillatorComponent::OscillatorComponent(int id) : oscId(id),
     addAndMakeVisible(semisLabel);
     addAndMakeVisible(levelLabel);
 
-    //Potentiometers Label
+    // Potentiometer Labels
 
     Font labelFont(10.0f);
 
@@ -60,6 +55,15 @@ OscillatorComponent::OscillatorComponent(int id) : oscId(id),
     levelLabel.setText ("Level", dontSendNotification);
     levelLabel.setFont(labelFont);
     levelLabel.setJustificationType(Justification::centred);
+
+
+    // Attachements
+
+    waveformAttachment.reset (new ComboBoxAttachment (valueTreeState, "oscWaveform"+std::to_string(id), waveformSelector));
+    octaveAttachment.reset (new SliderAttachment (valueTreeState, "oscOctave"+std::to_string(id), octavePot));
+    semisAttachment.reset (new SliderAttachment (valueTreeState, "oscSemis"+std::to_string(id), semisPot));
+    levelAttachment.reset (new SliderAttachment (valueTreeState, "oscLevel"+std::to_string(id), levelPot));
+
 }
 
 OscillatorComponent::~OscillatorComponent()

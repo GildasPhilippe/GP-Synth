@@ -22,7 +22,7 @@ GpsynthAudioProcessorEditor::GpsynthAudioProcessorEditor (GpsynthAudioProcessor&
     addAndMakeVisible (gainSlider);
     gainAttachment.reset (new SliderAttachment (valueTreeState, "gain", gainSlider));
     */
-    //addAndMakeVisible (keyboardComponent);
+    addAndMakeVisible (keyboardComponent);
 
     addAndMakeVisible(mainComponent);
 }

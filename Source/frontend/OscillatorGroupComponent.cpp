@@ -15,8 +15,8 @@
 OscillatorGroupComponent::OscillatorGroupComponent(AudioProcessorValueTreeState& vts) : valueTreeState(vts)
 {
 
-    for(int i = 0; i<3; ++i){
-        OscillatorComponent* osc = new OscillatorComponent(i);
+    for(int i = 1; i<=3; ++i){
+        OscillatorComponent* osc = new OscillatorComponent(i, vts);
         addAndMakeVisible(osc);
         oscillatorComponents.push_back(osc);
     }

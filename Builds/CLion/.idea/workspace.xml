@@ -15,42 +15,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abae173f-5bf6-4f1d-814f-4383f54f25f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginEditor.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/PluginProcessor.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/EnvelopeComponent.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/FilterGroupComponent.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LfoComponent.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MainComponent.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/MiddleComponent.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GP-Synth.app/Contents/MacOS/GP-Synth" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GP-Synth.app/Contents/MacOS/GP-Synth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GP-Synth.vst3/Contents/MacOS/GP-Synth" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GP-Synth.vst3/Contents/MacOS/GP-Synth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libGP-Synth.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libGP-Synth.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/backend/SynthVoice.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libGP-Synth.a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Source/PluginEditor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/PluginEditor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/PluginProcessor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/PluginProcessor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/PluginProcessor.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/PluginProcessor.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Source/backend/SynthVoice.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/backend/SynthVoice.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Source/backend/SynthVoice.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/backend/SynthVoice.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/EnvelopeComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/EnvelopeComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/EnvelopeComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/EnvelopeComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/FilterComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/FilterComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/FilterComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/FilterComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/LeftComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/LeftComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/LeftComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/LeftComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/LfoComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/LfoComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/LfoComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/LfoComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/MainComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/MainComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/MiddleComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/MiddleComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/MiddleComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/MiddleComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Source/frontend/OscillatorGroupComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/OscillatorGroupComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Source/frontend/OscillatorGroupComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Source/frontend/OscillatorGroupComponent.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../Source/PluginProcessor.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="51" column="62" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="62" />
+            <state relative-caret-position="193">
+              <caret line="29" column="62" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="62" />
               <folding>
                 <element signature="e#276#304#0" expanded="true" />
               </folding>
@@ -77,23 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Source/backend/SynthVoice.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#256#301#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../Source/backend/SynthVoice.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="27">
+              <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
               <folding>
                 <element signature="e#245#268#0" expanded="true" />
               </folding>
@@ -102,22 +64,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Source/frontend/OscillatorGroupComponent.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-              <folding>
-                <element signature="e#272#317#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../Source/frontend/OscillatorGroupComponent.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="225">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="e#260#305#0" expanded="true" />
               </folding>
@@ -126,22 +76,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-              <folding>
-                <element signature="e#266#311#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+            <state relative-caret-position="64">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding>
                 <element signature="e#254#299#0" expanded="true" />
               </folding>
@@ -179,12 +117,10 @@
         <option value="$PROJECT_DIR$/../../Source/frontend/materials/ComboSelector.cpp" />
         <option value="$PROJECT_DIR$/../../Source/frontend/materials/ComboSelector.h" />
         <option value="$PROJECT_DIR$/../../Source/frontend/materials/Potentiometer.h" />
-        <option value="$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.h" />
         <option value="$PROJECT_DIR$/../../README.md" />
         <option value="$PROJECT_DIR$/../../Source/frontend/materials/PotLabel.h" />
         <option value="$PROJECT_DIR$/../../Source/frontend/materials/PotLabel.cpp" />
         <option value="$PROJECT_DIR$/../../Source/frontend/materials/Potentiometer.cpp" />
-        <option value="$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.cpp" />
         <option value="$PROJECT_DIR$/../../Source/frontend/MainComponent.h" />
         <option value="$PROJECT_DIR$/../../Source/PluginEditor.h" />
         <option value="$PROJECT_DIR$/../../Source/frontend/RightComponent.h" />
@@ -193,12 +129,10 @@
         <option value="$PROJECT_DIR$/../../Source/frontend/EnvelopeComponent.h" />
         <option value="$PROJECT_DIR$/../../Source/frontend/MiddleComponent.cpp" />
         <option value="$PROJECT_DIR$/../../Source/frontend/EnvelopeComponent.cpp" />
-        <option value="$PROJECT_DIR$/../../Source/PluginEditor.cpp" />
         <option value="$PROJECT_DIR$/../../Source/frontend/LeftComponent.h" />
         <option value="$PROJECT_DIR$/../../Source/frontend/OscillatorGroupComponent.h" />
         <option value="$PROJECT_DIR$/../../Source/frontend/MainComponent.cpp" />
         <option value="$PROJECT_DIR$/../../Source/frontend/LeftComponent.cpp" />
-        <option value="$PROJECT_DIR$/../../Source/frontend/OscillatorGroupComponent.cpp" />
         <option value="$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.h" />
         <option value="$PROJECT_DIR$/../../Source/frontend/FilterGroupComponent.cpp" />
         <option value="$PROJECT_DIR$/../../Source/frontend/FilterComponent.h" />
@@ -208,6 +142,10 @@
         <option value="$PROJECT_DIR$/../../Source/backend/Waveforms.h" />
         <option value="$PROJECT_DIR$/../../Source/frontend/LfoComponent.h" />
         <option value="$PROJECT_DIR$/../../Source/frontend/LfoComponent.cpp" />
+        <option value="$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.h" />
+        <option value="$PROJECT_DIR$/../../Source/frontend/OscillatorGroupComponent.cpp" />
+        <option value="$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.cpp" />
+        <option value="$PROJECT_DIR$/../../Source/PluginEditor.cpp" />
         <option value="$PROJECT_DIR$/../../Source/backend/SynthVoice.h" />
         <option value="$PROJECT_DIR$/../../Source/backend/SynthVoice.cpp" />
       </list>
@@ -240,19 +178,6 @@
               <item name="GP-Synth" type="b2602c69:ProjectViewProjectNode" />
               <item name="GPSynth" type="462c0819:PsiDirectoryNode" />
               <item name="Source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GP-Synth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GPSynth" type="462c0819:PsiDirectoryNode" />
-              <item name="Source" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GP-Synth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GPSynth" type="462c0819:PsiDirectoryNode" />
-              <item name="Source" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="Maximilian" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GP-Synth" type="b2602c69:ProjectViewProjectNode" />
@@ -340,12 +265,12 @@
       <workItem from="1561630547319" duration="10000" />
       <workItem from="1561735203602" duration="5922000" />
       <workItem from="1562397817131" duration="17017000" />
-      <workItem from="1562489340446" duration="2471000" />
+      <workItem from="1562489340446" duration="8532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65754000" />
+    <option name="totallyTimeSpent" value="71815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -356,7 +281,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30547947" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30547947" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -527,16 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Source/PluginEditor.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding>
-            <element signature="e#273#301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Source/backend/Maximilian/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -690,46 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Source/frontend/LfoComponent.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-          <folding>
-            <element signature="e#248#293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Source/PluginProcessor.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="51" column="62" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="62" />
-          <folding>
-            <element signature="e#276#304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Source/frontend/LfoComponent.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#260#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Source/backend/SynthVoice.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#256#301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Source/backend/Maximilian/maximilian.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -737,52 +612,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Source/backend/SynthVoice.cpp">
+    <entry file="file://$PROJECT_DIR$/../../Source/frontend/LfoComponent.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="e#245#268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Source/frontend/OscillatorGroupComponent.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-          <folding>
-            <element signature="e#272#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Source/frontend/OscillatorGroupComponent.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        <state relative-caret-position="294">
+          <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="41" selection-end-column="59" />
           <folding>
             <element signature="e#260#305#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/frontend/LfoComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="46" column="104" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="46" selection-end-column="104" />
+          <folding>
+            <element signature="e#248#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/frontend/OscillatorGroupComponent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="58" />
+          <folding>
+            <element signature="e#272#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="60">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
             <element signature="e#266#311#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/PluginProcessor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="62" />
+          <folding>
+            <element signature="e#276#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/frontend/OscillatorGroupComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#260#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/PluginEditor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding>
+            <element signature="e#273#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/backend/SynthVoice.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+          <folding>
+            <element signature="e#256#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../Source/frontend/OscillatorComponent.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+        <state relative-caret-position="64">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="e#254#299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/backend/SynthVoice.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding>
+            <element signature="e#245#268#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -13,6 +13,7 @@
 #include "../../JuceLibraryCode/JuceHeader.h"
 #include "materials/Potentiometer.h"
 #include "materials/ComboSelector.h"
+#include "../backend/Waveforms.h"
 
 //==============================================================================
 /*
@@ -20,7 +21,7 @@
 class OscillatorComponent    : public Component
 {
 public:
-    OscillatorComponent(int id);
+    OscillatorComponent(int, AudioProcessorValueTreeState&);
     ~OscillatorComponent();
 
     void paint (Graphics&) override;
@@ -37,6 +38,14 @@ private:
     Label octaveLabel;
     Label semisLabel;
     Label levelLabel;
+
+    typedef AudioProcessorValueTreeState::SliderAttachment SliderAttachment;
+    typedef AudioProcessorValueTreeState::ComboBoxAttachment ComboBoxAttachment;
+    AudioProcessorValueTreeState& valueTreeState;
+    std::unique_ptr<ComboBoxAttachment> waveformAttachment;
+    std::unique_ptr<SliderAttachment> octaveAttachment;
+    std::unique_ptr<SliderAttachment> semisAttachment;
+    std::unique_ptr<SliderAttachment> levelAttachment;
 
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (OscillatorComponent)

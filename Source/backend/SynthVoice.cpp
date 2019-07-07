@@ -10,25 +10,23 @@
 
 #include "SynthVoice.h"
 #include <iostream>
-#include <string>
-#include <vector>
-#include <fstream>
+#include <cmath>
 
 SynthVoice::SynthVoice(AudioProcessorValueTreeState& vts) : parameters(vts)
 {
-    //oscWaveform1 = parameters.getRawParameterValue ("oscWaveform1");
-    //oscOctave1 = parameters.getRawParameterValue ("oscOctave1");
-    //oscSemis1 = parameters.getRawParameterValue ("oscSemis1");
+    oscWaveform1 = parameters.getRawParameterValue ("oscWaveform1");
+    oscOctave1 = parameters.getRawParameterValue ("oscOctave1");
+    oscSemis1 = parameters.getRawParameterValue ("oscSemis1");
     oscLevel1 = parameters.getRawParameterValue ("oscLevel1");
 
-    //oscWaveform2 = parameters.getRawParameterValue ("oscWaveform2");
-    //oscOctave2 = parameters.getRawParameterValue ("oscOctave2");
-    //oscSemis2 = parameters.getRawParameterValue ("oscSemis2");
+    oscWaveform2 = parameters.getRawParameterValue ("oscWaveform2");
+    oscOctave2 = parameters.getRawParameterValue ("oscOctave2");
+    oscSemis2 = parameters.getRawParameterValue ("oscSemis2");
     oscLevel2 = parameters.getRawParameterValue ("oscLevel2");
 
-    //oscWaveform3 = parameters.getRawParameterValue ("oscWaveform3");
-    //oscOctave3 = parameters.getRawParameterValue ("oscOctave3");
-    //oscSemis3 = parameters.getRawParameterValue ("oscSemis3");
+    oscWaveform3 = parameters.getRawParameterValue ("oscWaveform3");
+    oscOctave3 = parameters.getRawParameterValue ("oscOctave3");
+    oscSemis3 = parameters.getRawParameterValue ("oscSemis3");
     oscLevel3 = parameters.getRawParameterValue ("oscLevel3");
 
     freqLC = parameters.getRawParameterValue ("freqLC");
@@ -83,20 +81,27 @@ void SynthVoice::renderNextBlock(AudioBuffer<float> &outputBuffer, int startSamp
 
     for(int sample = 0; sample < numSamples; ++sample){
 
-        double sound1 = oscillator.square(frequency);
+        double sound1 = getOscWave((int)std::round(*oscWaveform1),
+                                   (int)std::round(*oscOctave1),
+                                   *oscSemis1, *oscLevel1, osc1, frequency);
 
-        double sound = sound1;
+        double sound2 = getOscWave((int)std::round(*oscWaveform2),
+                                   (int)std::round(*oscOctave2),
+                                   *oscSemis2, *oscLevel2, osc2, frequency);
+
+        double sound3 = getOscWave((int)std::round(*oscWaveform3),
+                                   (int)std::round(*oscOctave3),
+                                   *oscSemis3, *oscLevel3, osc3, frequency);
+
+        double sound = sound1 + sound2 + sound3;
 
         //sound = lowFilter.hires(sound, static_cast<double>(*freqLC), static_cast<double>(*qLC));
         // pops :
         //sound = highFilter.lores(sound, static_cast<double>(*freqHC), static_cast<double>(*qHC));
 
-        double lfo = getLfo(*lfoLevel, *lfoSpeed, (int)std::round(*lfoWaveform));
+        double lfo = getLfoWave(*lfoLevel, *lfoSpeed, (int)std::round(*lfoWaveform));
+        
         sound = envelope.adsr(sound, envelope.trigger) *lfo * level;
-
-        //std::cout << (int)std::round(*lfoWaveform) <<endl;
-
-
 
         for(int channel = 0; channel < outputBuffer.getNumChannels(); ++channel){
             outputBuffer.addSample(channel, startSample, sound);
@@ -105,7 +110,35 @@ void SynthVoice::renderNextBlock(AudioBuffer<float> &outputBuffer, int startSamp
     }
 }
 
-double SynthVoice::getLfo (float level, float speed, int waveform) {
+double SynthVoice::getOscWave (int waveform, int octave, float semis, float level, maxiOsc& oscillator, double freq) {
+
+    if(level > 0){
+        double wave;
+        double newFreq = 440 * pow(2, octave + semis/12);
+        switch(waveform) {
+            case Waveform::sine:
+                wave = oscillator.sinewave(newFreq);
+                break;
+            case Waveform::triangle:
+                wave = oscillator.triangle(newFreq);
+                break;
+            case Waveform::square:
+                wave = oscillator.square(newFreq);
+                break;
+            case Waveform::saw:
+                wave = oscillator.saw(newFreq);
+                break;
+            default:
+                wave = 0;
+                break;
+        }
+        return wave * level;
+    }
+    else return 0;
+
+}
+
+double SynthVoice::getLfoWave (float level, float speed, int waveform) {
     double wave;
     switch(waveform) {
         case Waveform::sine:

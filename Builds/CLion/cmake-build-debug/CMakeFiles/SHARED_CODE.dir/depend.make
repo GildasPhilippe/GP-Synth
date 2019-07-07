@@ -9103,6 +9103,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/fronten
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/AppConfig.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
+CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/Waveforms.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/FilterComponent.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/FilterGroupComponent.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/LeftComponent.cpp
@@ -11151,6 +11152,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/fronten
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/AppConfig.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
+CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/Waveforms.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/OscillatorComponent.cpp
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/OscillatorComponent.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/materials/ComboSelector.h
@@ -11658,6 +11660,7 @@ CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/fronten
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/AppConfig.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/BinaryData.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/JuceLibraryCode/JuceHeader.h
+CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/backend/Waveforms.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/OscillatorComponent.h
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.cpp
 CMakeFiles/SHARED_CODE.dir/Volumes/Macintosh_HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.cpp.o: /Volumes/Macintosh\ HDD/dev/Juce/GPSynth/Source/frontend/OscillatorGroupComponent.h

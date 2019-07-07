@@ -25,7 +25,8 @@ public:
     void controllerMoved (int controllerNumber, int newControllerValue) override;
     void renderNextBlock (AudioBuffer< float > &outputBuffer, int startSample, int numSamples) override;
 
-    double getLfo (float level, float speed, int waveform);
+    double getLfoWave (float level, float speed, int waveform);
+    double getOscWave (int waveform, int octave, float semis, float level, maxiOsc& oscillator, double freq);
 
 private:
     AudioProcessorValueTreeState& parameters;
@@ -34,7 +35,9 @@ private:
     double frequency;
 
     int noteNumber;
-    maxiOsc oscillator;
+    maxiOsc osc1;
+    maxiOsc osc2;
+    maxiOsc osc3;
     maxiOsc lfoOscillator;
     maxiEnv envelope;
     maxiFilter lowFilter;

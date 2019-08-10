@@ -74,6 +74,9 @@ add_library (SHARED_CODE STATIC
     "../../Source/backend/SynthSound.h"
     "../../Source/backend/SynthVoice.cpp"
     "../../Source/backend/SynthVoice.h"
+    "../../Source/backend/Waveforms.h"
+    "../../Source/frontend/materials/PotLabel.cpp"
+    "../../Source/frontend/materials/PotLabel.h"
     "../../Source/frontend/materials/ComboSelector.cpp"
     "../../Source/frontend/materials/ComboSelector.h"
     "../../Source/frontend/materials/Potentiometer.cpp"
@@ -103,8 +106,6 @@ add_library (SHARED_CODE STATIC
     "../../Source/PluginEditor.cpp"
     "../../Source/PluginEditor.h"
     "../../README.md"
-    "../../Source/frontend/materials/PotLabel.cpp"
-    "../../Source/frontend/materials/PotLabel.h"
     "../../../../../../../Applications/JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h"
     "../../../../../../../Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.cpp"
     "../../../../../../../Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.h"
@@ -1523,6 +1524,8 @@ set_source_files_properties ("../../Source/backend/Maximilian/maximilian.h" PROP
 set_source_files_properties ("../../Source/backend/Maximilian/stb_vorbis.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/backend/SynthSound.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/backend/SynthVoice.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../Source/backend/Waveforms.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties ("../../Source/frontend/materials/PotLabel.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/frontend/materials/ComboSelector.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/frontend/materials/Potentiometer.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/frontend/MainComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
@@ -1538,7 +1541,6 @@ set_source_files_properties ("../../Source/frontend/RightComponent.h" PROPERTIES
 set_source_files_properties ("../../Source/PluginProcessor.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/PluginEditor.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../README.md" PROPERTIES HEADER_FILE_ONLY TRUE)
-set_source_files_properties ("../../Source/frontend/materials/PotLabel.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../../../../../../Applications/JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../../../../../../Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.cpp" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../../../../../../Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.h" PROPERTIES HEADER_FILE_ONLY TRUE)

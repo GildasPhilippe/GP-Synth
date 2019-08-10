@@ -32,9 +32,12 @@
         <FILE id="CAuBU5" name="SynthSound.h" compile="0" resource="0" file="Source/backend/SynthSound.h"/>
         <FILE id="rPals2" name="SynthVoice.cpp" compile="1" resource="0" file="Source/backend/SynthVoice.cpp"/>
         <FILE id="welTGU" name="SynthVoice.h" compile="0" resource="0" file="Source/backend/SynthVoice.h"/>
+        <FILE id="IWJrnd" name="Waveforms.h" compile="0" resource="0" file="Source/backend/Waveforms.h"/>
       </GROUP>
       <GROUP id="{373D20CB-3AC8-13A5-D584-6FAD16C9460B}" name="frontend">
         <GROUP id="{67B09099-AE85-1505-B610-4CDAECD201A1}" name="materials">
+          <FILE id="twNEvW" name="PotLabel.cpp" compile="1" resource="0" file="Source/frontend/materials/PotLabel.cpp"/>
+          <FILE id="uJaPb5" name="PotLabel.h" compile="0" resource="0" file="Source/frontend/materials/PotLabel.h"/>
           <FILE id="ljaE43" name="ComboSelector.cpp" compile="1" resource="0"
                 file="Source/frontend/materials/ComboSelector.cpp"/>
           <FILE id="JPMUAg" name="ComboSelector.h" compile="0" resource="0" file="Source/frontend/materials/ComboSelector.h"/>
@@ -89,8 +92,6 @@
       <FILE id="IEH71f" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
       <FILE id="If89x2" name="README.md" compile="0" resource="1" file="README.md"/>
     </GROUP>
-    <FILE id="twNEvW" name="PotLabel.cpp" compile="1" resource="0" file="Source/frontend/materials/PotLabel.cpp"/>
-    <FILE id="uJaPb5" name="PotLabel.h" compile="0" resource="0" file="Source/frontend/materials/PotLabel.h"/>
   </MAINGROUP>
   <EXPORTFORMATS>
     <XCODE_MAC targetFolder="Builds/MacOSX" vst3Folder="../../../../../Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK">
